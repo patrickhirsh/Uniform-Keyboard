@@ -2,4 +2,5 @@
   (lib (name keyboard_parts)(type Legacy)(uri D:/Projects/Uniform-Keyboard/PCB/lib/kicad_lib_tmk-master/keyboard_parts.lib)(options "")(descr ""))
   (lib (name STM32F373CCT6)(type Legacy)(uri D:/Projects/Uniform-Keyboard/PCB/lib/STM32F373CCT6/STM32F373CCT6.lib)(options "")(descr ""))
   (lib (name TLV1117)(type Legacy)(uri D:/Projects/Uniform-Keyboard/PCB/lib/TLV1117-33IDCY/TLV1117-33IDCY.lib)(options "")(descr ""))
+  (lib (name USB4085-GF-A_REVA4)(type Legacy)(uri D:/Projects/Uniform-Keyboard/PCB/lib/USB4085-GF-A_REVA4/USB4085-GF-A_REVA4.lib)(options "")(descr ""))
 )
