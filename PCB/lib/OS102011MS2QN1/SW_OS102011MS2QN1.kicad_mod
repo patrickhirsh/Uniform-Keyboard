@@ -1,5 +1,5 @@
 
-(module SW_OS102011MS2QN1 (layer F.Cu) (tedit 6200D389)
+(module SW_OS102011MS2QN1 (layer F.Cu) (tedit 620222F9)
   (descr "")
   (fp_text reference REF** (at -2.976555 -3.305417 0) (layer F.SilkS)
     (effects (font (size 0.48008976378 0.48008976378) (thickness 0.15)))
