@@ -1,0 +1,51 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP 551-0507F
+D 7.5 V Red LED Through Hole, Dialight 551-0507F
+K
+F http://www.dialightsignalsandcomponents.com/Assets/Drawings/2D_Drawings_DrawingDetailedSpec/NewDrawings/C17306G.pdf
+$ENDCMP
+#
+$CMP 3557-2
+D THM 2 in 1 Auto Blade Holder P/N 3557-2
+K
+F http://www.keyelco.com/product-pdf.cfm?p=296
+$ENDCMP
+#
+$CMP SN74HCT125N
+D Quadruple Bus Buffer Gates With 3-State Outputs
+K
+F http://www.ti.com/lit/gpn/sn74hct125
+$ENDCMP
+#
+$CMP PRT-16279
+D ARDUINO NANO STACKABLE HEADERS
+K
+F https://cdn.sparkfun.com/assets/8/d/8/4/7/DS-16279-Arduino_Nano_Stackable_Header_Kit.pdf
+$ENDCMP
+#
+$CMP 1985975
+D Fixed Terminal Blocks MKDS 3/ 3 HT BK
+K
+F https://www.phoenixcontact.com/online/portal/gb/?uri=pxc-oc-itemdetail:pid=1985975&library=gben&pcck=P&tab=1&selectedCategory=ALL
+$ENDCMP
+#
+$CMP STM32L072KZT6
+D ARM Microcontrollers - MCU Ultra-low-power ARM Cortex-M0+ MCU with 192-Kbytes Flash, 32 MHz CPU, USB
+K
+F https://www.arrow.com/en/products/stm32l072kzt6/stmicroelectronics
+$ENDCMP
+#
+$CMP 800-10-004-10-001000
+D SIP HEADER 4 POS STRAIGHT PCB
+K
+F https://componentsearchengine.com/Datasheets/1/800-10-004-10-001000.pdf
+$ENDCMP
+#
+#End Doc Library
