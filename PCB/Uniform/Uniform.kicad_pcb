@@ -7205,9 +7205,9 @@
   )
 
   (gr_line (start 57.15 100.0125) (end 57.15 211.93125) (layer Dwgs.User) (width 0.15))
-  (gr_line (start 341.275 199.1) (end 341.275 105.7) (layer Dwgs.User) (width 0.15) (tstamp 6204A88C))
-  (gr_line (start 39.775 105.7) (end 341.275 105.7) (layer Dwgs.User) (width 0.15))
-  (gr_line (start 39.775 199.1) (end 39.775 105.7) (layer Dwgs.User) (width 0.15))
-  (gr_line (start 341.275 199.1) (end 39.775 199.1) (layer Dwgs.User) (width 0.15))
+  (gr_line (start 341.275 199.1) (end 341.275 105.7) (layer Edge.Cuts) (width 0.15) (tstamp 6204A88C))
+  (gr_line (start 39.775 105.7) (end 341.275 105.7) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 39.775 199.1) (end 39.775 105.7) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 341.275 199.1) (end 39.775 199.1) (layer Edge.Cuts) (width 0.15))
 
 )
