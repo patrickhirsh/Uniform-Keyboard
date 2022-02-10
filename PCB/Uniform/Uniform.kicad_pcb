@@ -957,7 +957,7 @@
   )
 
   (module LED_THT:LED_D5.0mm_Clear (layer F.Cu) (tedit 5A6C9BC0) (tstamp 6204758C)
-    (at 47.3125 109.6)
+    (at 41.5 128.85)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (path /646A674A)
@@ -6913,7 +6913,7 @@
   )
 
   (module RDER71H105K2M1H03A:CAP_RDER71H105K2M1H03A (layer F.Cu) (tedit 620233C3) (tstamp 62046451)
-    (at 54.2875 128.85 270)
+    (at 48.575 109.85 90)
     (path /64483141)
     (fp_text reference C6 (at 1.445 -3.889 90) (layer F.SilkS)
       (effects (font (size 1.4 1.4) (thickness 0.15)))
@@ -6935,14 +6935,14 @@
     (fp_line (start -2.75 1.575) (end -2.75 -1.575) (layer F.Fab) (width 0.127))
     (fp_line (start 2.75 1.575) (end -2.75 1.575) (layer F.SilkS) (width 0.127))
     (fp_line (start -2.75 -1.575) (end 2.75 -1.575) (layer F.SilkS) (width 0.127))
-    (pad 2 thru_hole circle (at 2.5 0 270) (size 1.15 1.15) (drill 0.75) (layers *.Cu *.Mask)
+    (pad 2 thru_hole circle (at 2.5 0 90) (size 1.15 1.15) (drill 0.75) (layers *.Cu *.Mask)
       (net 1 GND))
-    (pad 1 thru_hole circle (at -2.5 0 270) (size 1.15 1.15) (drill 0.75) (layers *.Cu *.Mask)
+    (pad 1 thru_hole circle (at -2.5 0 90) (size 1.15 1.15) (drill 0.75) (layers *.Cu *.Mask)
       (net 3 +3V3))
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 6204643D)
-    (at 50.2975 131.85 180)
+    (at 55.2975 131.85 180)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /64441CB6)
@@ -6983,7 +6983,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 62046426)
-    (at 50.2975 128.85 180)
+    (at 55.2975 128.85 180)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /620FAD88)
@@ -7024,7 +7024,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE5139B) (tstamp 6204640F)
-    (at 50.2975 125.85 180)
+    (at 55.2975 125.85 180)
     (descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /62083E65)
