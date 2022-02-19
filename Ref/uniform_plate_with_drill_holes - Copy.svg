@@ -4,6 +4,7 @@
 	 viewBox="0 0 838.4 298.4" style="enable-background:new 0 0 838.4 298.4;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:none;stroke:#000000;stroke-width:0.4018;stroke-miterlimit:11.3386;}
+	.st1{fill:#FFFFFF;stroke:#000000;stroke-width:0.2835;stroke-miterlimit:10;}
 </style>
 <polygon class="st0" points="817.8,14.9 818.2,14.9 818.7,15 819.1,15 819.6,15.2 820,15.3 820.4,15.5 820.8,15.7 821.1,16 
 	821.5,16.2 821.8,16.5 822.1,16.9 822.4,17.2 822.6,17.6 822.9,18 823,18.4 823.2,18.8 823.3,19.2 823.4,19.7 823.5,20.1 
@@ -81,4 +82,10 @@
 <polygon class="st0" points="156.3,21.3 156.3,61 196,61 196,21.3 "/>
 <polygon class="st0" points="102.3,21.3 102.3,61 142,61 142,21.3 "/>
 <polygon class="st0" points="34.8,21.3 34.8,61 74.5,61 74.5,21.3 "/>
+<circle class="st1" cx="743.2" cy="230.2" r="4.4"/>
+<circle class="st1" cx="41.2" cy="230.2" r="4.4"/>
+<circle class="st1" cx="743.2" cy="68.2" r="4.4"/>
+<circle class="st1" cx="41.2" cy="68.2" r="4.4"/>
+<circle class="st1" cx="527.2" cy="184.8" r="4.4"/>
+<circle class="st1" cx="257.2" cy="184.8" r="4.4"/>
 </svg>
