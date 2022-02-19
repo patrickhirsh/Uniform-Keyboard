@@ -1,5 +1,5 @@
-PCB Width: 30.15mm
-PCB Height: 40.21mm
+PCB Width: 30.15cm
+PCB Height: 9.34cm
 USBC Overhang: 1.5mm
 USBC From Corner: 16.75mm
 PCB Overhang from 1U Switch Center: 7.9mm
