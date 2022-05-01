@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RCE5C2A220J0A2H03B
+D Capacitor L=3.6mm W=3.5mm T=2.5mm
+K
+F https://componentsearchengine.com/Datasheets/1/RCE5C2A220J0A2H03B.pdf
+$ENDCMP
+#
+#End Doc Library
