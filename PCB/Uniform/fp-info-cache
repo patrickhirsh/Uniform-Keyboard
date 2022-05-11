@@ -1,4 +1,4 @@
-20329135305906253
+20330787656551368
 1N4148
 DIOAD829W49L456D191
 
@@ -60178,6 +60178,13 @@ Mounting 4.5mm 9774100982
 0
 8
 1
+Neopixel
+LED_D5.0mm-4_RGB
+LED, diameter 5.0mm, 4 pins, WP154A4, https://www.kingbright.com/attachments/file/psearch/000/00/00/L-154A4SUREQBFZGEW(Ver.11A).pdf
+LED diameter 5.0mm 2 pins diameter 5.0mm 3 pins diameter 5.0mm 4 pins RGB RGBLED
+0
+4
+4
 NetTie
 NetTie-2_SMD_Pad0.5mm
 Net tie, 2 pin, 0.5mm square SMD pads

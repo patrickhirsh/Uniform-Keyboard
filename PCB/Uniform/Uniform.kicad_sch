@@ -7311,7 +7311,7 @@
     (uuid cf57663d-643d-451e-b65d-af3e28d7b99a)
     (property "Reference" "LED1" (id 0) (at 282.6604 21.0778 0))
     (property "Value" "NeoPixel_THT" (id 1) (at 282.6604 23.6147 0))
-    (property "Footprint" "LED_THT:LED_D5.0mm-4_RGB" (id 2) (at 269.24 18.415 0)
+    (property "Footprint" "Neopixel:LED_D5.0mm-4_RGB" (id 2) (at 269.24 18.415 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://www.adafruit.com/product/1938" (id 3) (at 267.97 16.51 0)
@@ -7849,7 +7849,7 @@
       (reference "K_4_13") (unit 1) (value "KEYSW") (footprint "keyswitches:SW_MX")
     )
     (path "/cf57663d-643d-451e-b65d-af3e28d7b99a"
-      (reference "LED1") (unit 1) (value "NeoPixel_THT") (footprint "LED_THT:LED_D5.0mm-4_RGB")
+      (reference "LED1") (unit 1) (value "NeoPixel_THT") (footprint "Neopixel:LED_D5.0mm-4_RGB")
     )
     (path "/00000000-0000-0000-0000-00006398fb89"
       (reference "LED2") (unit 1) (value "Conn_01x03") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
