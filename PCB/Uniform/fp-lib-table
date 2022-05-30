@@ -12,4 +12,5 @@
   (lib (name "USB4085-GF-A_REVA4")(type "KiCad")(uri "D:/Projects/Uniform-Keyboard/PCB/lib/USB4085-GF-A_REVA4")(options "")(descr ""))
   (lib (name "keyswitches")(type "KiCad")(uri "D:/Projects/Uniform-Keyboard/PCB/lib/keyswitches")(options "")(descr ""))
   (lib (name "Graphics")(type "KiCad")(uri "D:/Projects/Uniform-Keyboard/Ref/silkscreen graphics/Graphics.pretty")(options "")(descr ""))
+  (lib (name "SN74AHCT1G125DBVR")(type "KiCad")(uri "D:/Projects/Uniform-Keyboard/PCB/lib/SN74AHCT1G125DBVR")(options "")(descr ""))
 )
