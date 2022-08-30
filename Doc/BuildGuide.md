@@ -117,13 +117,13 @@ Estimated time to completion: **1.5 hours**
 
 5. Solder the two **10 µF capacitors** to the PCB at **C1** and **C2**. These capacitors are not polarized, so they can be soldered in either orientation. 
 
-![Assembly10](Uniform_10.jpeg)
-
-It's easier to first seat the components flush to the board, then bend the legs to secure them in place *before* soldering. Once soldered, clip the excess wire. 
-
-Soldering through-hole components on the back side of the PCB is usually easier than soldering on the front.
+It's easier to first seat the components flush to the board, then bend the legs to secure them in place *before* soldering.
 
 ![Assembly11](Uniform_11.jpeg)
+
+ Once soldered, clip the excess wire. Soldering through-hole components on the back side of the PCB is usually easier than soldering on the front.
+
+![Assembly10](Uniform_10.jpeg)
 
 ---
 
@@ -155,9 +155,11 @@ Soldering through-hole components on the back side of the PCB is usually easier 
 
 ![Assembly16](Uniform_16.jpeg)
 
-I like to start by only soldering one pin on each LED, that way I can heat the solder on one side and press the LED flush to the board with the other - ensuring it's seated right. Be extra careful when handling the top of the LED while heating its pins on the other side of the board. Don't burn yourself! Once the first pin is soldered and you're happy with how the LED is seated, solder the other pins in place.
+I like to start by only soldering one pin on each LED, that way I can heat the solder on one side and press the LED flush to the board with the other - ensuring it's seated right. Be extra careful when handling the top of the LED while heating its pins on the other side of the board. Don't burn yourself! 
 
 ![Assembly17](Uniform_17.jpeg)
+
+Once the first pin is soldered and you're happy with how the LED is seated, solder the other pins in place.
 
 ---
 
@@ -167,10 +169,10 @@ I like to start by only soldering one pin on each LED, that way I can heat the s
 
 ---
 
-12. Solder the two **OS102011MS2QN1** Reset and Power switches into the PCB at **S1** and **S2**. I like to tape the switches into place while I solder the first pin, then heat the solder from the bottom while seating the switch into place by pressing it down from the top with my other hand (same technique as used with the status LEDs). The switches are metal and *will get very hot* while applying heat to the pins, so be careful when doing this. 
+12. Solder the two **OS102011MS2QN1** Reset and Power switches into the PCB at **S1** and **S2**. I like to tape the switches into place while I solder the first pin, then heat the solder from the bottom while seating the switch into place by pressing it down from the top with my other hand (same technique as used with the status LEDs). The switches are metal and *will get very hot* while applying heat to the pins, so be careful when doing this:
 
-![Assembly19](Uniform_19.jpeg)
 ![Assembly20](Uniform_20.jpeg)
+![Assembly19](Uniform_19.jpeg)
 
 Once the switches are seated and aligned to your liking, solder the remaining pins to fix the switches in place. You do not need to apply solder to the outer pegs, only the inner 3 pins.
 
@@ -212,9 +214,10 @@ Here I'm using a pair of tweasers. I've found the point on the tool where the wi
 I like to pre-bend all the diodes first, then fit and secure them in place by bending their legs on the back of the PCB before doing any soldering.
 
 ![Assembly28](Uniform_28.jpeg)
-![Assembly29](Uniform_29.jpeg)
 
 *This is a good time to double-check that all the diodes are oriented the correct way!* 
+
+![Assembly29](Uniform_29.jpeg)
 
 Finally, solder all the diodes in place and clip the excess wire. You should end up with something like this:
 
@@ -224,7 +227,7 @@ Finally, solder all the diodes in place and clip the excess wire. You should end
 
 15. **(Optional)** If you've purchased hot-swap sockets, now's the time to solder them to the PCB. Installing these can be *really* tedious... and they're also quite expensive. In my opinion, though, it's well worth it for the ability to hot-swap switches. 
 
-Personally, I like the **Mill-Max 7305** sockets best. These tips will really only apply to Mill-Max style hot-swap sockets, but plenty of guides exist for other hot-swap options.
+Personally, I like the **Mill-Max 7305** sockets best. The tips in this section will really only apply to Mill-Max style hot-swap sockets, but plenty of guides exist for other hot-swap options.
 
 ![Assembly31](Uniform_31.jpeg)
 
@@ -232,26 +235,33 @@ Personally, I like the **Mill-Max 7305** sockets best. These tips will really on
 
 ![Assembly32](Uniform_32.jpeg)
 
-To ensure the sockets are aligned such that the switches aren't crooked when inserted, fit all the sockets *without* soldering first. Snap the switches through the plate and insert them into the hot-swap sockets. Ensure that each switch socket contains a hotswap socket before inserting the switch.
+To ensure the sockets are aligned such that the switches aren't crooked when inserted, fit all the sockets *without* soldering first. Snap the switches through the plate and insert them into the hot-swap sockets. Make sure each switch socket contains a hotswap socket before inserting the switch.
 
 ![Assembly34](Uniform_34.jpeg)
 
-Once all the sockets and switches have been inserted, carefuly flip the entire board over.
+To save yourself from turning an hour or two of work into 3+ hours of anguish, *only insert a handful of sockets at a time and secure them in place with switches before inserting more*. This *does* mean you'll have to carefully insert the sockets with a tweaser to reach between the swich plate, which *is* more difficult than putting them all in by hand first without the switch plate in the way, but *trust me*, it's far better this way. 
+
+You'll inevitably pop a switch into the plate with a *little* too much force, and there's nothing more frustrating than watching all the sockets you carefully inserted into the switch sockets over the last hour pop out all at once. They're very light and tend to jump out of their sockets at even the slightest "pop". 
+
+I can't tell you how many times I got greedy and had to re-learn this lesson :P
 
 ![Assembly35](Uniform_35.jpeg)
+
+Once all the sockets and switches have been inserted, carefuly flip the entire board over.
+
 ![Assembly36](Uniform_36.jpeg)
 
 On the back of the PCB, the hot-swap sockets should protrude slightly. we'll be applying a small amount of solder to the outside of the socket wall, fixing the socket in place. 
 
 ![Assembly37](Uniform_37.jpeg)
 
-Apply slight preasure to the board as you solder each socket to ensure the socket and switch are sitting flush with the board as they're fixed in place. **Be careful not to get solder inside the socket!**
+Apply slight pressure to the board as you solder each socket to ensure the socket and switch are sitting flush with the board as they're fixed in place. **Be careful not to get solder inside the socket!**
 
 ![Assembly38](Uniform_38.jpeg)
 
 Once all the sockets have been soldered in place, you can pop all the switches out to ensure none have been soldered into their sockets. 
 
-If this happens to you, patiently applying heat and soldering wick is the best way to clean up a flooded socket. Eventually, you should be able to wiggle the switch free while applying heat to the pins.
+If a switch is soldered in place, patiently applying heat through a soldering wick is the best way to clean up a flooded socket. Eventually, you should be able to wiggle the switch free while applying heat to the pins.
 
 ![Assembly39](Uniform_39.jpeg)
 
