@@ -58,7 +58,7 @@ Alternatively, [M2.5 standoffs](https://www.amazon.com/gp/product/B01L06CUJG/ref
 ##Keyboard Components
 Uniform has an unconventional layout which requires a special set of keycaps. 
 
-![Uniform Layout](keyboard-layout.png)
+![Uniform Layout](keyboard-layout.PNG)
 
 **This layout requires:**
 - **68x** Switches
