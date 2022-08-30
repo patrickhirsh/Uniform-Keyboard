@@ -19,6 +19,7 @@ Personally I use [JLPCB](https://jlcpcb.com/) when ordering PCBs. Most manufactu
 | Component | Mfr. # | Quantity | Est. Price |
 |-|-|-|-|
 |MCU|[STM32L072KZT6](https://www.mouser.com/ProductDetail/STMicroelectronics/STM32L072KZT6?qs=mwoc%252BQmZlGJ4eN3sEity4A%3D%3D)|1|$7.65|
+|Voltage Regulator|[TLV1117-33IDCYG3](https://www.digikey.com/en/products/detail/texas-instruments/TLV1117-33IDCYG3/1677131)|1|$0.89|
 |Logic Level Shifter|[SN74AHCT1G125DBVR](https://www.mouser.com/ProductDetail/595-SNAHCT1G125DBVR)|1|$0.40|
 |Diodes|[1N4148](https://www.mouser.com/ProductDetail/512-1N4148)|68|$5.64|
 |NeoPixel Status Led|[5mm Through-Hole 5 Pack](https://www.mouser.com/ProductDetail/YAGEO/MFR-25FRF52-330R?qs=oAGoVhmvjhxv5KjCXy24Qg%3D%3D)|1|$4.95|
@@ -79,7 +80,186 @@ Finally, **Don't forget to order a USB-C Cable!**
 - [PCB Assembly](#pcb-assembly)
 - [Switch & Plate](#switch-&-plate )
 - [Case Assembly & Mounting](#case-assembly-&-mounting)
+- [Flashing Firmware](#flashing-firmware)
+---
 ## PCB Assembly
+![Assembly41](Uniform_41.jpeg)
+Estimated time to completion: **3 hours** (**4.5 hours** with hot-swap)
+
+### Main Components
+Estimated time to completion: **1.5 hours**
+
+---
+
+1. Solder the **STM32L072KZT6** MCU component to the PCB at **U1**, taking care to align the dimpled corner on the chip with the white dot on the PCB.
+
+![Assembly4](Uniform_4.jpeg)
+
+---
+
+2. Solder the **SN74AHCT1G125DBVR** Logic Level Shifter to the PCB at **U2**.
+
+![Assembly5](Uniform_5.jpeg)
+
+---
+
+3. Solder the **TLV1117-33IDCYG3** Voltage Regulator to the PCB at **VREG1**.
+
+![Assembly6](Uniform_6.jpeg)
+
+---
+
+4. Solder the **USB4085-GF-A** USB-C Connector to the PCB at **USBC1**. Take care to not bridge any pin connections. Only the *bottom two fins* nearest the pins need to be soldered into the socket (as shown below). 
+
+![Assembly7](Uniform_7.jpeg)
+
+---
+
+5. Solder the two **10 µF capacitors** to the PCB at **C1** and **C2**. These capacitors are not polarized, so they can be soldered in either orientation. 
+
+![Assembly10](Uniform_10.jpeg)
+
+It's easier to first seat the components flush to the board, then bend the legs to secure them in place *before* soldering. Once soldered, clip the excess wire. 
+
+Soldering through-hole components on the back side of the PCB is usually easier than soldering on the front.
+
+![Assembly11](Uniform_11.jpeg)
+
+---
+
+6. Solder the single **1 µF capacitor** to the PCB at **C6**. This capacitor is not polarized, so it can be soldered in either orientation.
+
+![Assembly12](Uniform_12.jpeg)
+
+---
+
+7. Solder the three **0.1 µF capacitors** to the PCB at **C3**, **C4**, and **C5**. These capacitors are not polarized, so they can be soldered in either orientation.
+
+![Assembly13](Uniform_13.jpeg)
+
+---
+
+8. Solder the two **10 kOhm resistors** to the PCB at **R3** and **R4**. These resistors can be soldered in either orientation.
+
+![Assembly14](Uniform_14.jpeg)
+
+---
+
+9. Solder the two **5.1 kOhm resistors** to the PCB at **R1** and **R2**. These resistors can be soldered in either orientation.
+
+![Assembly15](Uniform_15.jpeg)
+
+---
+
+10. Solder the three **NeoPixel Status Leds** to the PCB at **L1**, **L2**, and **L3**. Orientation *does* matter. Take care to ensure the longer legs are seated on the right side of the footprint (the side with the rectangular pad).
+
+![Assembly16](Uniform_16.jpeg)
+
+I like to start by only soldering one pin on each LED, that way I can heat the solder on one side and press the LED flush to the board with the other - ensuring it's seated right. Be extra careful when handling the top of the LED while heating its pins on the other side of the board. Don't burn yourself! Once the first pin is soldered and you're happy with how the LED is seated, solder the other pins in place.
+
+![Assembly17](Uniform_17.jpeg)
+
+---
+
+11. Next are the **330 Ohm resistors**. Soldering one into **R5** is *required*, and is used to smooth the data signal to the status LEDs. **R6** is *only necessary if you intend to use the external LED pinout* at **L4**; it's used to smooth L4's data line.
+
+![Assembly18](Uniform_18.jpeg)
+
+---
+
+12. Solder the two **OS102011MS2QN1** Reset and Power switches into the PCB at **S1** and **S2**. I like to tape the switches into place while I solder the first pin, then heat the solder from the bottom while seating the switch into place by pressing it down from the top with my other hand (same technique as used with the status LEDs). The switches are metal and *will get very hot* while applying heat to the pins, so be careful when doing this. 
+
+![Assembly19](Uniform_19.jpeg)
+![Assembly20](Uniform_20.jpeg)
+
+Once the switches are seated and aligned to your liking, solder the remaining pins to fix the switches in place. You do not need to apply solder to the outer pegs, only the inner 3 pins.
+
+![Assembly21](Uniform_21.jpeg)
+
+---
+
+13. **(Optional)** If you've purchased the **826629-5** 5-pin header for SWD debugging, solder it to the PCB at **SWD1**. I used the same tape, single pin, heat and re-seat technique for this component as well. Take *extra care* here where handling the header while heating the pins as you'll be in contact with the *same metal pins that you're heating from the bottom*. Using a rag or some other material between your fingers and the pins when re-seating the component is a good idea.
+
+![Assembly22](Uniform_22.jpeg)
+
+---
+
+**We're Halfway There!**
+
+If you've made it this far, nice work! Give yourself a pat on the back. We've just finished soldering all the main components. Your board should look something like this:
+
+![Assembly23](Uniform_23.jpeg)
+![Assembly24](Uniform_24.jpeg)
+
+---
+
+## Diodes & Hot-Swap Sockets
+Estimated time to completion: **1.5 hours** (**3 hours** with hot-swap)
+
+---
+
+14. This step is a little tedious. We're going to be soldering all 68 **1N4148** diodes to their respective positions on the PCB - one per switch. You'll find their positions on the board adjacent to each switch, denoted **D_\<Row\>_\<Column\>**. Orientation **does matter**, so be sure that the diode is oriented such that current flows *down* from the switch to the row trace. on our 1N4148 diodes, this means the **black band on the diode should be on the *bottom***
+
+![Assembly26](Uniform_26.jpeg)
+
+The most time consuming part of this whole step is bending and fiddling with the legs of the diodes to get them to fit centered in their footprint on the board. In my experience, the fastest way to do this is to find a flat tool that can be used to reliably bend the diodes in the same place every time. 
+
+Here I'm using a pair of tweasers. I've found the point on the tool where the width causes the diode to bend at the right points, and I'm keeping my pointer finger here as I bend each diode so they all come out the same. This dramatically speeds up the process as all the diodes fit perfectly without too much fiddling.
+
+![Assembly25](Uniform_25.jpeg)
+![Assembly27](Uniform_27.jpeg)
+
+I like to pre-bend all the diodes first, then fit and secure them in place by bending their legs on the back of the PCB before doing any soldering.
+
+![Assembly28](Uniform_28.jpeg)
+![Assembly29](Uniform_29.jpeg)
+
+*This is a good time to double-check that all the diodes are oriented the correct way!* 
+
+Finally, solder all the diodes in place and clip the excess wire. You should end up with something like this:
+
+![Assembly30](Uniform_30.jpeg)
+
+---
+
+15. **(Optional)** If you've purchased hot-swap sockets, now's the time to solder them to the PCB. Installing these can be *really* tedious... and they're also quite expensive. In my opinion, though, it's well worth it for the ability to hot-swap switches. 
+
+Personally, I like the **Mill-Max 7305** sockets best. These tips will really only apply to Mill-Max style hot-swap sockets, but plenty of guides exist for other hot-swap options.
+
+![Assembly31](Uniform_31.jpeg)
+
+**Mill-Max 7305** sockets fit into the switch sockets (two per switch) with the ridge sitting on the top side of the PCB as shown below. This means you'll need to solder **136** sockets in total.
+
+![Assembly32](Uniform_32.jpeg)
+
+To ensure the sockets are aligned such that the switches aren't crooked when inserted, fit all the sockets *without* soldering first. Snap the switches through the plate and insert them into the hot-swap sockets. Ensure that each switch socket contains a hotswap socket before inserting the switch.
+
+![Assembly34](Uniform_34.jpeg)
+
+Once all the sockets and switches have been inserted, carefuly flip the entire board over.
+
+![Assembly35](Uniform_35.jpeg)
+![Assembly36](Uniform_36.jpeg)
+
+On the back of the PCB, the hot-swap sockets should protrude slightly. we'll be applying a small amount of solder to the outside of the socket wall, fixing the socket in place. 
+
+![Assembly37](Uniform_37.jpeg)
+
+Apply slight preasure to the board as you solder each socket to ensure the socket and switch are sitting flush with the board as they're fixed in place. **Be careful not to get solder inside the socket!**
+
+![Assembly38](Uniform_38.jpeg)
+
+Once all the sockets have been soldered in place, you can pop all the switches out to ensure none have been soldered into their sockets. 
+
+If this happens to you, patiently applying heat and soldering wick is the best way to clean up a flooded socket. Eventually, you should be able to wiggle the switch free while applying heat to the pins.
+
+![Assembly39](Uniform_39.jpeg)
+
+
+---
+
+
 ## Switch & Plate
 ## Case Assembly & Mounting
+## Flashing Firmware
 
