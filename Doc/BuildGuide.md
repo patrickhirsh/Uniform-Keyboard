@@ -61,9 +61,9 @@ Uniform has an unconventional layout which means a special set of keycaps is req
 ![Uniform Layout](keyboard-layout.PNG)
 
 **This layout uses:**
-- **68x** Switches
-- **11x** 1.5u keycaps
-- **57x** 1u keycaps
+- **(68)** total switches
+- **(11)** 1.5u keycaps
+- **(57)** 1u keycaps
 
 I find DSA and XDA keycap profiles to be easiest to work with because the keycap shape doesn't change based on the row, making sourcing a complete set for an unconventional layout easier.
 
