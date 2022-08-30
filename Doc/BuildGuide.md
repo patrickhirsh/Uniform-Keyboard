@@ -46,7 +46,13 @@ There are many options for having plates cut and shipped to you. I've personally
 
 ---
 ##Case
+Uniform does not have its own case (yet!). 
 
+The mounting holes provided on the PCB fit **M2.5** screws.
+
+The PCB is designed to fit into a [TOFU65](https://kbdfans.com/collections/tofu65), however the mounting holes *do not line up* due to the ortholiner positioning of the keys blocking the TOFU's original standoffs. I've personally had success removing the original standoffs on the TOFU with a dremel, 3D printing some standoffs with heatset 2.5M inserts, then fixing the attached standoffs to the case with doublesided foam tape so the PCB can be mounted to them. The USB-C port position *does* align on the TOFU65.
+
+Alternatively, [M2.5 standoffs](https://www.amazon.com/gp/product/B01L06CUJG/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) can be had for cheap, and can be used to prop the PCB up off the desk for an exposed-PCB look. I've typed many *many* hours with Uniform keyboard prototypes set up this way.
 
 ---
 ##Keyboard Components
@@ -55,9 +61,9 @@ Uniform has an unconventional layout which requires a special set of keycaps.
 ![Uniform Layout](keyboard-layout.png)
 
 **This layout requires:**
-- 68 Switches
-- **11** 1.5u keycaps
-- **57** 1u keycaps
+- **68x** Switches
+- **11x** 1.5u keycaps
+- **57x** 1u keycaps
 
 I find DSA and XDA keycap profiles to be easiest to work with because the keycap shape doesn't change based on the row, making sourcing a complete set for an unconventional layout easier.
 
