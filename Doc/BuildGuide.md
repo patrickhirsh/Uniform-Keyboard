@@ -1,4 +1,4 @@
-#Parts & Preparation
+# Parts & Preparation
 - [Sourcing Components](#sourcing-components)
 - [PCB](#pcb)
   - [Uniform PCB](#uniform-pcb)
@@ -8,14 +8,14 @@
 - [Case](#case)
 - [Keyboard Components](#keyboard-components)
 ---
-##Sourcing Components
+## Sourcing Components
 Uniform deliberately makes use of components that are generally widely available to make sourcing as easy as possible. The links provided are for the distributors I've personally sourced parts from, however these components may not always be in stock. Components like capacitors, resistors, and diodes *can easily be substituted for virtually any identical variant from another manufacturer* and will generally fit in their through-hole footprints on the PCB. Components with specific footprints like the MCU, Logic Level Shifter, Status LEDs, USB-C Connector, and Power / Reset Switches *require the exact component* to fit correctly on the PCB.
 
 ---
-##PCB
-###Uniform PCB
+## PCB
+### Uniform PCB
 Personally I use [JLPCB](https://jlcpcb.com/) when ordering PCBs. Most manufacturers will ask you to upload gerber files. In the case of JLPCB, you can simply upload the **UniformGBR.zip** file, which contains all the zipped gerbers. The Uniform PCB gerber files are provided in the **PCB/Uniform/GBR/** section of the repository.
-###Required PCB Components
+### Required PCB Components
 | Component | Mfr. # | Quantity | Est. Price |
 |-|-|-|-|
 |MCU|[STM32L072KZT6](https://www.mouser.com/ProductDetail/STMicroelectronics/STM32L072KZT6?qs=mwoc%252BQmZlGJ4eN3sEity4A%3D%3D)|1|$7.65|
@@ -31,7 +31,7 @@ Personally I use [JLPCB](https://jlcpcb.com/) when ordering PCBs. Most manufactu
 |5.1 kOhm Resistor|[RNMF14FTC5K10](https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNMF14FTC5K10/2617363)|2|$0.20|
 |330 Ohm Resistor|[MFR-25FRF52-330R](https://www.mouser.com/ProductDetail/YAGEO/MFR-25FRF52-330R?qs=oAGoVhmvjhxv5KjCXy24Qg%3D%3D)|1|$0.10|
 
-###Optional PCB Components
+### Optional PCB Components
 | Component | Mfr. # | Quantity | Est. Price | Note |
 |-|-|-|-|-|
 |Hot-Swap Sockets|[7305-0-15-15-47-27-10-0](https://www.digikey.com/en/products/detail/mill-max-manufacturing-corp/7305-0-15-15-47-27-10-0/1765737)|136|$47.16| other [Mill-Max Options](https://divinikey.com/products/mill-max-hotswap-sockets) or [Kailh](https://divinikey.com/products/kailh-hot-swap-sockets) are good alternatives |
@@ -39,13 +39,13 @@ Personally I use [JLPCB](https://jlcpcb.com/) when ordering PCBs. Most manufactu
 |330 Ohm Resistor|[MFR-25FRF52-330R](https://www.mouser.com/ProductDetail/YAGEO/MFR-25FRF52-330R?qs=oAGoVhmvjhxv5KjCXy24Qg%3D%3D)|1|$0.10|Necessary if the on-board external LED header will be used|
 
 ---
-##Plate
+## Plate
 A plate provides stability and alignment for your keyboard's switches and is *highly recommended*, especially when using hot-swap sockets. The .svg file for Uniform's plate is provided in the **Ref** directory of the repository, called **uniform_plate.svg**. 
 ![Uniform Plate](uniform_plate.svg)
 There are many options for having plates cut and shipped to you. I've personally used [Ponoko](https://www.ponoko.com/) and have been happy with their quality. Popular plate materials are aluminum and brass, however I've also found acrylic to look and feel quite nice. The thickness of the plate is determined by the type of switches you intend to use. Most switches (including MX style switches) fit best with a **1.5mm** thick plate.
 
 ---
-##Case
+## Case
 Uniform does not have its own case (yet!). 
 
 The mounting holes provided on the PCB fit **M2.5** screws.
@@ -55,7 +55,7 @@ The PCB is designed to fit into a [TOFU65](https://kbdfans.com/collections/tofu6
 Alternatively, [M2.5 standoffs](https://www.amazon.com/gp/product/B01L06CUJG/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) can be had for cheap, and can be used to prop the PCB up off the desk for an exposed-PCB look. I've typed many *many* hours with Uniform keyboard prototypes set up this way.
 
 ---
-##Keyboard Components
+## Keyboard Components
 Uniform has an unconventional layout which requires a special set of keycaps. 
 
 ![Uniform Layout](keyboard-layout.PNG)
@@ -75,11 +75,11 @@ Finally, **Don't forget to order a USB-C Cable!**
 
 ---
 
-#Assembly
+# Assembly
 - [PCB Assembly](#pcb-assembly)
 - [Switch & Plate](#switch-&-plate )
 - [Case Assembly & Mounting](#case-assembly-&-mounting)
-##PCB Assembly
-##Switch & Plate
-##Case Assembly & Mounting
+## PCB Assembly
+## Switch & Plate
+## Case Assembly & Mounting
 
