@@ -1,20 +1,42 @@
-# Parts & Preparation
-- [Sourcing Components](#sourcing-components)
-- [PCB](#pcb)
-  - [Uniform PCB](#uniform-pcb)
-  - [Required PCB Components](#required-pcb-components)
-  - [Optional PCB Components](#optional-pcb-components)
-- [Plate](#plate)
-- [Case](#case)
-- [Keyboard Components](#keyboard-components)
+# Uniform Build Guide
+- [Parts and Preparation](#parts-and-preparation)
+  - [PCB](#pcb)
+  - [Plate](#plate)
+  - [Case](#case)
+  - [Keyboard Components](#keyboard-components)
+  - [Tools](#tools)
+- [Assembly](#assembly)
+  - [PCB Assembly](#pcb-assembly)
+    - [Main Components](#main-components)
+    - [Diodes](#diodes)
+    - [Hot-Swap Sockets](#hot-swap-sockets)
+  - [Switch and Plate](#switch-and-plate)
+  - [Case Assembly and Mounting](#case-assembly-and-mounting)
+- [Flashing Firmware](#flashing-firmware)
+
+
 ---
-## Sourcing Components
-Uniform makes use of components that are generally widely available to make ordering components as easy as possible. The links provided are for the distributors I've personally sourced parts from, however these components may not always be in stock. Components like capacitors, resistors, and diodes can easily be substituted for virtually any identical variant from another manufacturer and will generally fit in their through-hole footprints on the PCB. Components with specific footprints like the MCU, Logic Level Shifter, Status LEDs, USB-C Connector, and Power / Reset Switches *require the exact component* to fit correctly on the PCB.
+# Parts and Preparation
+Before beginning assembly, it's a good idea to have a plan for each required component. The following subsections will explore these components in greater detail. **Here's a top-level rundown of everything you'll need to source yourself**, including hyperlinks to the corresponding subsections below.
+
+- The [Uniform PCB](#pcb)
+- All [Required PCB Components](#required-pcb-components)
+- Any [Optional PCB Components](#optional-pcb-components)
+- A [Plate](#plate), if desired (*strongly recommended*)
+- A [Case](#case) (your choice may necessitate addititonal materials and tools)
+- **(68x)** Switches of your choice
+- **(11x)** 1.5u keycaps
+- **(57x)** 1u keycaps
+- A USB-C cable
+- All required [Tools](#tools)
+
 
 ---
 ## PCB
-### Uniform PCB
-Personally I use [JLPCB](https://jlcpcb.com/) when ordering PCBs. Most manufacturers will ask you to upload gerber files. In the case of JLPCB, you can simply upload the **UniformGBR.zip** file, which contains all the zipped gerbers. The Uniform PCB gerber files are provided in the **PCB/Uniform/GBR/** section of the repository.
+I don't sell or distribute PCBs myself, so you'll need to order your own through the PCB manufacturer of your choice. I usually use [JLPCB](https://jlcpcb.com/), but you may want to shop around to find the supplier that gets you the best deal. Most manufacturers will ask you to upload gerber files. In the case of JLPCB, you can simply upload the **UniformGBR.zip** file, which contains all the zipped gerbers. The Uniform PCB gerber files are provided in the **PCB/Uniform/GBR/** section of the repository.
+
+Uniform makes use of components that are generally widely available to make ordering components as easy as possible. The links provided are for the distributors I've personally sourced parts from, however these components may not always be in stock. Components like capacitors, resistors, and diodes can easily be substituted for virtually any identical variant from another manufacturer and will generally fit in their through-hole footprints on the PCB. Components with specific footprints like the MCU, Logic Level Shifter, Status LEDs, USB-C Connector, and Power / Reset Switches *require the exact component* to fit correctly on the PCB.
+
 ### Required PCB Components
 | Component | Mfr. # | Quantity | Est. Price |
 |-|-|-|-|
@@ -31,6 +53,7 @@ Personally I use [JLPCB](https://jlcpcb.com/) when ordering PCBs. Most manufactu
 |10 kOhm Resistor|[CFR16J10K](https://www.digikey.com/en/products/detail/te-connectivity-passive-product/CFR16J10K/3317912)|2|$0.20|
 |5.1 kOhm Resistor|[RNMF14FTC5K10](https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNMF14FTC5K10/2617363)|2|$0.20|
 |330 Ohm Resistor|[MFR-25FRF52-330R](https://www.mouser.com/ProductDetail/YAGEO/MFR-25FRF52-330R?qs=oAGoVhmvjhxv5KjCXy24Qg%3D%3D)|1|$0.10|
+||||**$24.40**|
 
 ### Optional PCB Components
 | Component | Mfr. # | Quantity | Est. Price | Note |
@@ -38,12 +61,15 @@ Personally I use [JLPCB](https://jlcpcb.com/) when ordering PCBs. Most manufactu
 |Hot-Swap Sockets|[7305-0-15-15-47-27-10-0](https://www.digikey.com/en/products/detail/mill-max-manufacturing-corp/7305-0-15-15-47-27-10-0/1765737)|136|$47.16| other [Mill-Max Options](https://divinikey.com/products/mill-max-hotswap-sockets) or [Kailh](https://divinikey.com/products/kailh-hot-swap-sockets) are good alternatives |
 |SWD Header|[826629-5](https://www.digikey.com/en/products/detail/te-connectivity-amp-connectors/826629-5/2276109)|1|$0.71|MCU debug pinout header for debugging and easier flashing|
 |330 Ohm Resistor|[MFR-25FRF52-330R](https://www.mouser.com/ProductDetail/YAGEO/MFR-25FRF52-330R?qs=oAGoVhmvjhxv5KjCXy24Qg%3D%3D)|1|$0.10|Necessary if the on-board external LED header will be used|
+||||**$47.97**||
 
 ---
 ## Plate
 A plate provides stability and alignment for your keyboard's switches and is *highly recommended*, especially when using hot-swap sockets. The .svg file for Uniform's plate is provided in the **Ref** directory of the repository, called **uniform_plate.svg**. 
 ![Uniform Plate](uniform_plate.svg)
 There are many options for having plates cut and shipped to you. I've personally used [Ponoko](https://www.ponoko.com/) and have been happy with their quality. Popular plate materials are aluminum and brass, however I've also found acrylic to look and feel quite nice. The thickness of the plate is determined by the type of switches you intend to use. Most switches (including MX style switches) fit best with a **1.5mm-1.6mm** thick plate.
+
+**Note:** the plate does *not* include holes drilled for mount screw access through the plate. This is because adding mount holes into the plate template results in cuts far too dense for most laser cutting services. If mount screw access through the plate is important to you, the best option is to drill the holes yourself after receiving the plates. Be mindful of the plate material chosen if this is your plan. I've found Aluminium to be quite easy to drill through, but materials like acrylic to be far too brittle to drill into without cracking or shattering.
 
 ---
 ## Case
@@ -57,34 +83,43 @@ Alternatively, [M2.5 standoffs](https://www.amazon.com/gp/product/B01L06CUJG/ref
 
 ---
 ## Keyboard Components
-Uniform has an unconventional layout which means a special set of keycaps is required. 
+Uniform has an unconventional layout, which means a special set of keycaps is required. 
 
 ![Uniform Layout](keyboard-layout.PNG)
 
-**This layout uses:**
+**This layout requires:**
 - **(68)** total switches
 - **(11)** 1.5u keycaps
 - **(57)** 1u keycaps
 
-I find DSA and XDA keycap profiles to be easiest to work with because the keycap shape doesn't change based on the row, making sourcing a complete set for an unconventional layout easier.
-
-![Keycap Profiles](keycap-profiles.png)
-
-These keycap profiles are less popular when compared to Cherry, so finding sets you like can be challenging. If you're a fan of blank keycaps, a great option is to order blank sets from sellers on [Aliexpress](https://www.aliexpress.com/). Many of these distributors will make you custom batches with exactly the number of keycaps of each size that you need, and some will even make them in custom colors. I've found the easiest way to put together a complete set of keycaps for this keyboard is to combine an existing DSA or XDA set with blank 1.5u keycaps from Aliexpress.
+I find DSA and XDA keycap profiles to be easiest to work with. Many sellers on [Aliexpress](https://www.aliexpress.com/) can make custom batches of 1u and 1.5u blank keycaps, which makes it easier to build a complete keycap set. I like using blanks for all my keys, so I typically put in a single order for all the 1u and 1.5u keycaps from the same distributor so I can guarantee a perfect color match.
 
 Finally, **Don't forget to order a USB-C Cable!**
+
+## Tools
+|Tool|Purpose|Necessity|
+|-|-|-|
+| Soldering Iron & Solder | Soldering components onto the PCB | Required |
+| Small Phillips Head Screwdriver | Case assembly and mount screws | Required |
+| Tweasers | Hold small components in place while soldering | Recommended |
+| Soldering Wick | Desoldering - fixing mistakes and removing excess solder | Recommended |
+| Flux Paste | Help solder flow better for surface mount components | Recommended |
+| Tape | keep odd-shaped components in place while soldering the first pin  | Recommended |
 
 ---
 
 # Assembly
 - [PCB Assembly](#pcb-assembly)
-- [Switch & Plate](#switch-&-plate )
-- [Case Assembly & Mounting](#case-assembly-&-mounting)
+  - [Main Components](#main-components)
+  - [Diodes](#diodes)
+  - [Hot-Swap Sockets](#hot-swap-sockets)
+- [Switch and Plate](#switch-and-plate)
+- [Case Assembly and Mounting](#case-assembly-and-mounting)
 - [Flashing Firmware](#flashing-firmware)
 ---
 ## PCB Assembly
 ![Assembly41](Uniform_41.jpeg)
-Estimated time to completion: **3 hours** (**4.5 hours** with hot-swap)
+Total estimated time to completion: **3 hours** (**4.5 hours** with hot-swap)
 
 ### Main Components
 Estimated time to completion: **1.5 hours**
@@ -92,6 +127,10 @@ Estimated time to completion: **1.5 hours**
 ---
 
 1. Solder the **STM32L072KZT6** MCU component to the PCB at **U1**, taking care to align the dimpled corner on the chip with the white dot on the PCB.
+
+This is the most difficult component to solder to the board, so take your time and ensure none of the pins are left bridged together. A little flux paste applied to the surface of the pads before soldering makes the solder flow much easier. 
+
+I like to start by soldering a single pin from the MCU to the board. Then, while heating the pin with the soldering iron, I use tweasers to shift the MCU's position until its' feet are aligned with the rest of the pads on the board. Once heat is released from the pin, the chip is fixed in place. Apply the minimum amount of solder necessary to create a clean connection between the remaining pins and their pads.
 
 ![Assembly4](Uniform_4.jpeg)
 
@@ -117,13 +156,15 @@ Estimated time to completion: **1.5 hours**
 
 5. Solder the two **10 µF capacitors** to the PCB at **C1** and **C2**. These capacitors are not polarized, so they can be soldered in either orientation. 
 
-It's easier to first seat the components flush to the board, then bend the legs to secure them in place *before* soldering.
-
 ![Assembly11](Uniform_11.jpeg)
 
- Once soldered, clip the excess wire. Soldering through-hole components on the back side of the PCB is usually easier than soldering on the front.
+It's easier to first seat the components flush to the board, then bend the legs to secure them in place *before* soldering.
+ 
+Soldering through-hole components on the back side of the PCB is usually easier than soldering on the front.
 
 ![Assembly10](Uniform_10.jpeg)
+
+Once soldered, clip the excess wire.
 
 ---
 
@@ -171,8 +212,8 @@ Once the first pin is soldered and you're happy with how the LED is seated, sold
 
 12. Solder the two **OS102011MS2QN1** Reset and Power switches into the PCB at **S1** and **S2**. I like to tape the switches into place while I solder the first pin, then heat the solder from the bottom while seating the switch into place by pressing it down from the top with my other hand (same technique as used with the status LEDs). The switches are metal and *will get very hot* while applying heat to the pins, so be careful when doing this:
 
-![Assembly20](Uniform_20.jpeg)
 ![Assembly19](Uniform_19.jpeg)
+![Assembly20](Uniform_20.jpeg)
 
 Once the switches are seated and aligned to your liking, solder the remaining pins to fix the switches in place. You do not need to apply solder to the outer pegs, only the inner 3 pins.
 
@@ -195,12 +236,12 @@ If you've made it this far, nice work! Give yourself a pat on the back. We've ju
 
 ---
 
-## Diodes & Hot-Swap Sockets
-Estimated time to completion: **1.5 hours** (**3 hours** with hot-swap)
+## Diodes
+Estimated time to completion: **1.5 hours**
 
----
+This part is a little tedious. We're going to be soldering all 68 **1N4148** diodes to their respective positions on the PCB - one per switch. 
 
-14. This step is a little tedious. We're going to be soldering all 68 **1N4148** diodes to their respective positions on the PCB - one per switch. You'll find their positions on the board adjacent to each switch, denoted **D_\<Row\>_\<Column\>**. Orientation **does matter**, so be sure that the diode is oriented such that current flows *down* from the switch to the row trace. on our 1N4148 diodes, this means the **black band on the diode should be on the *bottom***
+You'll find their positions on the board adjacent to each switch, denoted **D_\<Row\>_\<Column\>**. Orientation **does matter**, so be sure that the diode is oriented such that current flows *down* from the switch to the row trace. on our 1N4148 diodes, this means the **black band on the diode should be on the *bottom***
 
 ![Assembly26](Uniform_26.jpeg)
 
@@ -225,7 +266,12 @@ Finally, solder all the diodes in place and clip the excess wire. You should end
 
 ---
 
-15. **(Optional)** If you've purchased hot-swap sockets, now's the time to solder them to the PCB. Installing these can be *really* tedious... and they're also quite expensive. In my opinion, though, it's well worth it for the ability to hot-swap switches. 
+## Hot-Swap Sockets
+**(Optional)**
+
+Estimated time to completion: **1-2 hours**
+
+If you've purchased hot-swap sockets, now's the time to solder them to the PCB. Installing these can be *really* tedious... and they're also quite expensive. In my opinion, though, it's well worth it for the ability to hot-swap switches. 
 
 Personally, I like the **Mill-Max 7305** sockets best. The tips in this section will really only apply to Mill-Max style hot-swap sockets, but plenty of guides exist for other hot-swap options.
 
@@ -239,11 +285,11 @@ To ensure the sockets are aligned such that the switches aren't crooked when ins
 
 ![Assembly34](Uniform_34.jpeg)
 
-To save yourself from turning an hour or two of work into 3+ hours of anguish, *only insert a handful of sockets at a time and secure them in place with switches before inserting more*. This *does* mean you'll have to carefully insert the sockets with a tweaser to reach between the swich plate, which *is* more difficult than putting them all in by hand first without the switch plate in the way, but *trust me*, it's far better this way. 
+To save yourself from turning 1-2 hours of work into 3+ hours of anguish, *only insert a handful of sockets at a time and secure them in place with switches before inserting more*. This *does* mean you'll have to carefully insert the sockets with tweasers to reach between the swich plate, which *is* more difficult than putting them all in by hand first without the switch plate in the way, but *trust me*, it's far better this way. 
 
 You'll inevitably pop a switch into the plate with a *little* too much force, and there's nothing more frustrating than watching all the sockets you carefully inserted into the switch sockets over the last hour pop out all at once. They're very light and tend to jump out of their sockets at even the slightest "pop". 
 
-I can't tell you how many times I got greedy and had to re-learn this lesson :P
+I can't tell you how many times I got greedy and had to re-learn this lesson...
 
 ![Assembly35](Uniform_35.jpeg)
 
@@ -259,17 +305,21 @@ Apply slight pressure to the board as you solder each socket to ensure the socke
 
 ![Assembly38](Uniform_38.jpeg)
 
-Once all the sockets have been soldered in place, you can pop all the switches out to ensure none have been soldered into their sockets. 
+Once all the sockets have been soldered in place, you can pop the switches out to ensure none have been soldered into their sockets. 
 
-If a switch is soldered in place, patiently applying heat through a soldering wick is the best way to clean up a flooded socket. Eventually, you should be able to wiggle the switch free while applying heat to the pins.
+Patiently applying heat through a soldering wick is the best way to clean up a flooded socket if you've managed to get solder inside a hot-swap socket. Eventually, you should be able to wiggle the switch free while applying heat to the pins.
 
 ![Assembly39](Uniform_39.jpeg)
-
 
 ---
 
 
-## Switch & Plate
-## Case Assembly & Mounting
-## Flashing Firmware
+## Switch and Plate
+TODO ...
+
+## Case Assembly and Mounting
+TODO ...
+
+# Flashing Firmware
+TODO ...
 
