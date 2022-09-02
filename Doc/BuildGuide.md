@@ -210,7 +210,9 @@ Once the first pin is soldered and you're happy with how the LED is seated, sold
 
 ---
 
-12. Solder the two **OS102011MS2QN1** Reset and Power switches into the PCB at **S1** and **S2**. I like to tape the switches into place while I solder the first pin, then heat the solder from the bottom while seating the switch into place by pressing it down from the top with my other hand (same technique as used with the status LEDs). The switches are metal and *will get very hot* while applying heat to the pins, so be careful when doing this:
+12. Solder the two **OS102011MS2QN1** Reset and Power switches into the PCB at **S1** and **S2**. 
+
+I like to tape the switches into place while I solder the first pin, then heat the solder from the bottom while seating the switch into place by pressing it down from the top with my other hand (same technique as used with the status LEDs). The switches are metal and *will get very hot* while applying heat to the pins, so be careful when doing this:
 
 ![Assembly19](Uniform_19.jpeg)
 ![Assembly20](Uniform_20.jpeg)
@@ -221,7 +223,9 @@ Once the switches are seated and aligned to your liking, solder the remaining pi
 
 ---
 
-13. **(Optional)** If you've purchased the **826629-5** 5-pin header for SWD debugging, solder it to the PCB at **SWD1**. I used the same tape, single pin, heat and re-seat technique for this component as well. Take *extra care* here where handling the header while heating the pins as you'll be in contact with the *same metal pins that you're heating from the bottom*. Using a rag or some other material between your fingers and the pins when re-seating the component is a good idea.
+13. **(Optional)** If you've purchased the **826629-5** 5-pin header for SWD debugging, solder it to the PCB at **SWD1**. 
+
+I used the same tape, single pin, heat and re-seat technique for this component as well. Take *extra care* here where handling the header while heating the pins as you'll be in contact with the *same metal pins that you're heating from the bottom*. Using a rag or some other material between your fingers and the pins when re-seating the component is a good idea.
 
 ![Assembly22](Uniform_22.jpeg)
 
