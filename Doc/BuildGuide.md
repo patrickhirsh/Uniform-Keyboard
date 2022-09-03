@@ -78,13 +78,13 @@ There are many options for having plates cut and shipped to you. I've personally
 Uniform does not have its own case (yet!). 
 
 ### TOFU65
-To get this project off the ground, the Uniform board was designed to fit into a [TOFU65](https://kbdfans.com/collections/tofu65). The USB-C Port lines up with the case cutout and the PCB dimmensions match those of other compatible TOFU65 PCBs. The only caveat us that the PCB mount holes *do not* line up with those in the TOFU65. This is a limitation of the ortholinear layout Uniform utilizes - the mount points overlap with switch positions on Uniform's board, making it impossible to accomodate them. This means you will need to come up with your own mounting solution if you'd like to build this keyboard in a TOFU65 case. 
+To get this project off the ground, the Uniform board was designed to fit into a [TOFU65](https://kbdfans.com/collections/tofu65). The USB-C Port lines up with the case cutout and the PCB dimmensions match those of other compatible TOFU65 PCBs. The only caveat is that the PCB mount holes *do not* line up with those in the TOFU65. This is a limitation of the ortholinear layout Uniform utilizes - the mount points overlap with switch positions on Uniform's board, making it impossible to accomodate them. This means you will need to come up with your own mounting solution if you'd like to build this keyboard in a TOFU65 case. 
 
-I've personally done this for the first three prototypes of this board (I ❤️ the TOFU) by dremeling off the original standoffs and 3D printing my own using [M2.5 heatset inserts](https://www.amazon.com/gp/product/B08GWKW1K7/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) and [M2.5 screws](https://www.amazon.com/gp/product/B09WJ4WF9K/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1). The 3D printed parts are literally just cylinders with widened bases in which I've heatset the threaded inserts. I used double-sided foam tape
+I've personally done this for the first three prototypes of this board by dremeling off the original standoffs and 3D printing my own using [M2.5 heatset inserts](https://www.amazon.com/gp/product/B08GWKW1K7/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) and [M2.5 screws](https://www.amazon.com/gp/product/B09WJ4WF9K/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1). The 3D printed parts are literally just cylinders with widened bases in which I've heatset the threaded inserts. I used double-sided foam tape
 
 The mounting holes provided on the PCB fit **M2.5** screws.
 
-The PCB is designed to fit into a [TOFU65](https://kbdfans.com/collections/tofu65), however the mounting holes *do not line up* due to the ortholiner positioning of the keys blocking the TOFU's original standoffs. I've personally had success removing the original standoffs on the TOFU with a dremel, 3D printing some standoffs with heatset 2.5M inserts, then fixing the attached standoffs to the case with doublesided foam tape so the PCB can be mounted to them. The USB-C port position *does* align on the TOFU65.
+The PCB is designed to fit into a [TOFU65](https://kbdfans.com/collections/tofu65/products/in-stocktofu-65-aluminum-case), however the mounting holes *do not line up* due to the ortholiner positioning of the keys blocking the TOFU's original standoffs. I've personally had success removing the original standoffs on the TOFU with a dremel, 3D printing some standoffs with heatset 2.5M inserts, then fixing the attached standoffs to the case with doublesided foam tape so the PCB can be mounted to them. The USB-C port position *does* align on the TOFU65.
 
 Alternatively, [M2.5 standoffs](https://www.amazon.com/gp/product/B01L06CUJG/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) can be had for cheap, and can be used to prop the PCB up off the desk for an exposed-PCB look. I've typed many *many* hours with Uniform keyboard prototypes set up this way.
 
@@ -134,107 +134,105 @@ Estimated time to completion: **1.5 hours**
 ---
 
 1. Solder the **STM32L072KZT6** MCU component to the PCB at **U1**, taking care to align the dimpled corner on the chip with the white dot on the PCB.
-
+&nbsp;
 This is the most difficult component to solder to the board, so take your time and ensure none of the pins are left bridged together. A little flux paste applied to the surface of the pads before soldering makes the solder flow much easier. 
-
+&nbsp;
 I like to start by soldering a single pin from the MCU to the board. Then, while heating the pin with the soldering iron, I use tweasers to shift the MCU's position until its' feet are aligned with the rest of the pads on the board. Once heat is released from the pin, the chip is fixed in place. Apply the minimum amount of solder necessary to create a clean connection between the remaining pins and their pads.
-
+&nbsp;
 ![MCU Closeup](Uniform_MCU_Closeup.jpeg)
 
 ---
 
 2. Solder the **SN74AHCT1G125DBVR** Logic Level Shifter to the PCB at **U2**.
-
-![Logic Level Shifter](Uniform_Logic_Level_Shifter.jpeg)
+&nbsp;
+![Logic Level Shifter](Uniform_Logic_Level_Shifter.png)
 
 ---
 
 3. Solder the **TLV1117-33IDCYG3** Voltage Regulator to the PCB at **VREG1**.
-
-![Voltage Reg](Uniform_Voltage_Reg.jpeg)
+&nbsp;
+![Voltage Reg](Uniform_Voltage_Reg.png)
 
 ---
 
 4. Solder the **USB4085-GF-A** USB-C Connector to the PCB at **USBC1**. Take care to not bridge any pin connections. Only the *bottom two fins* nearest the pins need to be soldered into the socket (as shown below). 
-
-![USBC Connector](Uniform_USBC_Connector.jpeg)
+&nbsp;
+![USBC Connector](Uniform_USBC_Connector.png)
 
 ---
 
 5. Solder the two **10 µF capacitors** to the PCB at **C1** and **C2**. These capacitors are not polarized, so they can be soldered in either orientation. 
-
+&nbsp;
 It's easier to first seat the components flush to the board, then bend the legs to secure them in place *before* soldering.
-
-Soldering through-hole components on the back side of the PCB is usually easier than soldering on the front. 
-
+&nbsp;
 ![Uniform 10u Back](Uniform_10u_Back.jpeg) 
-
+&nbsp;
 ![Uniform 10u Cap](Uniform_10u_Cap.jpeg)
-
+&nbsp;
 Once soldered, clip the excess wire.
 
 ---
 
 6. Solder the single **1 µF capacitor** to the PCB at **C6**. This capacitor is not polarized, so it can be soldered in either orientation.
-
+&nbsp;
 ![Uniform 1u Cap](Uniform_1u_Cap.jpeg)
 
 ---
 
 7. Solder the three **0.1 µF capacitors** to the PCB at **C3**, **C4**, and **C5**. These capacitors are not polarized, so they can be soldered in either orientation.
-
-![Uniform 0.1u Cap](Uniform_0.1u_Cap.jpeg)
+&nbsp;
+![Uniform 0.1u Cap](Uniform_0.1u_Cap.png)
 
 ---
 
 8. Solder the two **10 kOhm resistors** to the PCB at **R3** and **R4**. These resistors can be soldered in either orientation.
-
-![Uniform 10k Res](Uniform_10k_Res.jpeg)
+&nbsp;
+![Uniform 10k Res](Uniform_10k_Res.png)
 
 ---
 
 9. Solder the two **5.1 kOhm resistors** to the PCB at **R1** and **R2**. These resistors can be soldered in either orientation.
-
-![Uniform 5.1k Res](Uniform_5.1k_Res.jpeg)
+&nbsp;
+![Uniform 5.1k Res](Uniform_5.1k_Res.png)
 
 ---
 
 10. Solder the three **NeoPixel Status Leds** to the PCB at **L1**, **L2**, and **L3**. Orientation *does* matter. Take care to ensure the longer legs are seated on the right side of the footprint (the side with the rectangular pad).
-
+&nbsp;
 ![Uniform LED Front](Uniform_LED_Front.jpeg)
-
+&nbsp;
 I like to start by only soldering one pin on each LED, that way I can heat the solder on one side and press the LED flush to the board with the other - ensuring it's seated right. Be extra careful when handling the top of the LED while heating its pins on the other side of the board. Don't burn yourself! 
-
-![Uniform LED Back](Uniform_LED_Back.jpeg)
-
+&nbsp;
+![Uniform LED Back](Uniform_LED_Back.png)
+&nbsp;
 Once the first pin is soldered and you're happy with how the LED is seated, solder the other pins in place.
 
 ---
 
 11. Next are the **330 Ohm resistors**. Soldering one into **R5** is *required*, and is used to smooth the data signal to the status LEDs. **R6** is *only necessary if you intend to use the external LED pinout* at **L4**; it's used to smooth L4's data line.
-
-![Uniform 330 Res](Uniform_330_Res.jpeg)
+&nbsp;
+![Uniform 330 Res](Uniform_330_Res.png)
 
 ---
 
 12. Solder the two **OS102011MS2QN1** Reset and Power switches into the PCB at **S1** and **S2**. 
-
+&nbsp;
 I like to tape the switches into place while I solder the first pin, then heat the solder from the bottom while seating the switch into place by pressing it down from the top with my other hand (same technique as used with the status LEDs). The switches are metal and *will get very hot* while applying heat to the pins, so be careful when doing this:
-
+&nbsp;
 ![Uniform Toggle Front](Uniform_Toggle_Front.jpeg)
-![Uniform Toggle Back](Uniform_Toggle_Back.jpeg)
-
+![Uniform Toggle Back](Uniform_Toggle_Back.png)
+&nbsp;
 Once the switches are seated and aligned to your liking, solder the remaining pins to fix the switches in place. You do not need to apply solder to the outer pegs, only the inner 3 pins.
-
+&nbsp;
 ![Uniform Toggle Final](Uniform_Toggle_Final.jpeg)
 
 ---
 
 13. **(Optional)** If you've purchased the **826629-5** 5-pin header for SWD debugging, solder it to the PCB at **SWD1**. 
-
+&nbsp;
 I used the same tape, single pin, heat and re-seat technique for this component as well. Take *extra care* here where handling the header while heating the pins as you'll be in contact with the *same metal pins that you're heating from the bottom*. Be sure not to touch the pin you're currently heating when reseating the header. 
-
-![Uniform SWD](Uniform_SWD.jpeg)
+&nbsp;
+![Uniform SWD](Uniform_SWD.png)
 
 ---
 
@@ -253,7 +251,7 @@ This part is a little tedious. We're going to be soldering all 68 **1N4148** dio
 
 You'll find their positions on the board adjacent to each switch, denoted **D_\<Row\>_\<Column\>**. Orientation **does matter**, so be sure that the diode is oriented such that current flows *down* from the switch to the row trace. on our 1N4148 diodes, this means the **black band on the diode should be on the *bottom***
 
-![Uniform Diode Orientation](Uniform_Diode_Orientation.jpeg)
+![Uniform Diode Orientation](Uniform_Diode_Orientation.png)
 
 The most time consuming part of this whole step is bending and fiddling with the legs of the diodes to get them to fit centered in their footprint on the board. In my experience, the fastest way to do this is to find a flat tool that can be used to reliably bend the diodes in the same place every time. 
 
@@ -288,7 +286,7 @@ Personally, I like the **Mill-Max 7305** sockets best. The tips in this section 
 
 **Mill-Max 7305** sockets fit into the switch sockets (two per switch) with the ridge sitting on the top side of the PCB as shown below. This means you'll need to solder **136** sockets in total.
 
-![Uniform HotSwap Ridge](Uniform_HotSwap_Ridge.jpeg)
+![Uniform HotSwap Ridge](Uniform_HotSwap_Ridge.png)
 
 To ensure the sockets are aligned such that the switches aren't crooked when inserted, fit all the sockets *without* soldering first. Snap the switches through the plate and insert them into the hot-swap sockets. Make sure each switch socket contains a hotswap socket before inserting the switch.
 
@@ -308,13 +306,13 @@ Once all the sockets and switches have been inserted, carefuly flip the entire b
 
 On the back of the PCB, the hot-swap sockets should protrude slightly. we'll be applying a small amount of solder to the outside of the socket wall, fixing the socket in place. 
 
-![Uniform HotSwap PreSolder](Uniform_HotSwap_PreSolder.jpeg)
+![Uniform HotSwap PreSolder](Uniform_HotSwap_PreSolder.png)
 
 Apply slight pressure to the board as you solder each socket to ensure the socket and switch are sitting flush with the board as they're fixed in place. **Be careful not to get solder inside the socket!**
 
-![Uniform HotSwap PostSolder](Uniform_HotSwap_PostSolder.jpeg)
+![Uniform HotSwap PostSolder](Uniform_HotSwap_PostSolder.png)
 
-Once all the sockets have been soldered in place, you can pop the switches out to ensure none have been soldered into their sockets. 
+Once all the sockets have been soldered in place, pop the switches out to ensure none have been soldered into their sockets. 
 
 ![Uniform HotSwap Final](Uniform_HotSwap_Final.jpeg)
 
