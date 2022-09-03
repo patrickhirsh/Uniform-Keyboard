@@ -79,9 +79,9 @@ Uniform makes use of components that are generally widely available to make orde
 ## Plate
 **[Download the Uniform plate .svg file here](https://github.com/patrickhirsh/Uniform-Keyboard/blob/main/Ref/uniform_plate.svg)**
 
-![Uniform Plate](uniform_plate.svg)
-
 There are many options for having plates cut and shipped to you. I've personally used [Ponoko](https://www.ponoko.com/) and have been happy with their quality. Popular plate materials are aluminum and brass, however I've also found acrylic to look and feel quite nice. The thickness of the plate is determined by the type of switches you intend to use. Most switches (including MX style switches) fit best with a **1.5mm-1.6mm** thick plate.
+
+![Uniform Plate](uniform_plate.svg)
 
 **Why doesn't the plate include cuts for mount screw access holes?** 
 > Adding mount holes into the plate file results in a very small amount of plate material between the holes and the corner of the switch cutouts. These thin bits of material typically don't meet the spec of most laser cutting services. Fortunately it's pretty easy to drill holes into your plate yourself with a regular drill and drill bits. Be mindful of the plate material chosen if this is your plan. I've found Aluminium to be quite easy to drill through, but materials like acrylic to be far too brittle to drill into without cracking or shattering.
