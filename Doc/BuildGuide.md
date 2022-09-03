@@ -1,17 +1,17 @@
 # Uniform Build Guide
 - [Parts and Preparation](#parts-and-preparation)
+  - [Tools](#tools)
   - [PCB](#pcb)
   - [Plate](#plate)
-  - [Case](#case)
   - [Keyboard Components](#keyboard-components)
-  - [Tools](#tools)
+  - [Case](#case)
 - [Assembly](#assembly)
   - [PCB Assembly](#pcb-assembly)
     - [Main Components](#main-components)
     - [Diodes](#diodes)
     - [Hot-Swap Sockets](#hot-swap-sockets)
-  - [Switch and Plate](#switch-and-plate)
-  - [Case Assembly and Mounting](#case-assembly-and-mounting)
+  - [Case Assembly](#case-assembly)
+  - [Switches and Keycaps](#switches-and-keycaps)
 - [Flashing Firmware](#flashing-firmware)
 
 
@@ -30,6 +30,16 @@ Before beginning assembly, it's a good idea to have a plan for each required com
 - A USB-C cable
 - All required [Tools](#tools)
 
+---
+## Tools
+|Tool|Purpose|Necessity|
+|-|-|-|
+| Soldering Iron & Solder | Soldering components onto the PCB | Required |
+| Small Phillips Head Screwdriver | Case assembly and mount screws | Required |
+| Tweasers | Hold small components in place while soldering | Recommended |
+| Soldering Wick | Desoldering - fixing mistakes and removing excess solder | Recommended |
+| Flux Paste | Help solder flow better for surface mount components | Recommended |
+| Tape | keep odd-shaped components in place while soldering the first pin  | Recommended |
 
 ---
 ## PCB
@@ -74,21 +84,6 @@ There are many options for having plates cut and shipped to you. I've personally
 **Note:** the plate does *not* include holes drilled for mount screw access through the plate. This is because adding mount holes into the plate template results in cuts far too dense for most laser cutting services. If mount screw access through the plate is important to you, the best option is to drill the holes yourself after receiving the plates. Be mindful of the plate material chosen if this is your plan. I've found Aluminium to be quite easy to drill through, but materials like acrylic to be far too brittle to drill into without cracking or shattering.
 
 ---
-## Case
-Uniform does not have its own case (yet!). 
-
-### TOFU65
-To get this project off the ground, the Uniform board was designed to fit into a [TOFU65](https://kbdfans.com/collections/tofu65). The USB-C Port lines up with the case cutout and the PCB dimmensions match those of other compatible TOFU65 PCBs. The only caveat is that the PCB mount holes *do not* line up with those in the TOFU65. This is a limitation of the ortholinear layout Uniform utilizes - the mount points overlap with switch positions on Uniform's board, making it impossible to accomodate them. This means you will need to come up with your own mounting solution if you'd like to build this keyboard in a TOFU65 case. 
-
-I've personally done this for the first three prototypes of this board by dremeling off the original standoffs and 3D printing my own using [M2.5 heatset inserts](https://www.amazon.com/gp/product/B08GWKW1K7/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) and [M2.5 screws](https://www.amazon.com/gp/product/B09WJ4WF9K/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1). The 3D printed parts are literally just cylinders with widened bases in which I've heatset the threaded inserts. I used double-sided foam tape
-
-The mounting holes provided on the PCB fit **M2.5** screws.
-
-The PCB is designed to fit into a [TOFU65](https://kbdfans.com/collections/tofu65/products/in-stocktofu-65-aluminum-case), however the mounting holes *do not line up* due to the ortholiner positioning of the keys blocking the TOFU's original standoffs. I've personally had success removing the original standoffs on the TOFU with a dremel, 3D printing some standoffs with heatset 2.5M inserts, then fixing the attached standoffs to the case with doublesided foam tape so the PCB can be mounted to them. The USB-C port position *does* align on the TOFU65.
-
-Alternatively, [M2.5 standoffs](https://www.amazon.com/gp/product/B01L06CUJG/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) can be had for cheap, and can be used to prop the PCB up off the desk for an exposed-PCB look. I've typed many *many* hours with Uniform keyboard prototypes set up this way.
-
----
 ## Keyboard Components
 Uniform has an unconventional layout, which means a special set of keycaps is required. 
 
@@ -103,24 +98,40 @@ I find DSA and XDA keycap profiles to be easiest to work with. Many sellers on [
 
 Finally, **Don't forget to order a USB-C Cable!**
 
-## Tools
-|Tool|Purpose|Necessity|
-|-|-|-|
-| Soldering Iron & Solder | Soldering components onto the PCB | Required |
-| Small Phillips Head Screwdriver | Case assembly and mount screws | Required |
-| Tweasers | Hold small components in place while soldering | Recommended |
-| Soldering Wick | Desoldering - fixing mistakes and removing excess solder | Recommended |
-| Flux Paste | Help solder flow better for surface mount components | Recommended |
-| Tape | keep odd-shaped components in place while soldering the first pin  | Recommended |
+---
+## Case
+Uniform does not have its own case (yet!). 
+
+### Mounting Information
+
+The 10 primary mounting holes provided on the PCB fit **M2.5** screws.
+
+![Uniform PCB Wireframe Main Mounts](Uniform_PCB_Wireframe_Main_Mounts.png)
+
+There are 2 additional **M2.5** mount holes on the left side of the board. These are designed to fit standoffs for an acrylic component shield.
+
+![Uniform PCB Wireframe Acrlic Mounts](Uniform_PCB_Wireframe_Acrylic_Mounts.png)
+
+### TOFU65
+To get this project off the ground, the Uniform board was designed to fit into a [TOFU65](https://kbdfans.com/collections/tofu65). The USB-C Port lines up with the case cutout and the PCB dimensions match those of other compatible TOFU65 PCBs. The only caveat is that the PCB mount holes *do not* line up with those in the TOFU65. This is a limitation of the ortholinear layout Uniform utilizes - the mount points overlap with switch positions on Uniform's board, making it impossible to accomodate them. This means you will need to come up with your own mounting solution if you'd like to build this keyboard in a TOFU65 case. 
+
+I've personally done this for the first three prototypes of this board by dremeling off the original standoffs and 3D printing my own using [M2.5 heatset inserts](https://www.amazon.com/gp/product/B08GWKW1K7/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) and [M2.5 screws](https://www.amazon.com/gp/product/B09WJ4WF9K/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1). The 3D printed parts are just cylinders which I've heatset the threaded inserts into, then used double-sided foam tape to fix into the bottom of the case. 
+
+If you decide to go this route, it's easiest to screw the standoffs into the bottom of the PCB first, apply the adhesive, then press the entire board down into the bottom of the modified Tofu65 case. **Do this with switches and keycaps installed on all four corners of the board to ensure the keycaps have clearance!** 
+
+### Caseless Build
+
+Alternatively, [M2.5 standoffs](https://www.amazon.com/gp/product/B01L06CUJG/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) can be had for cheap, and can be used to prop the PCB up off your desk for an exposed-PCB look. I've typed many *many* hours with Uniform keyboard prototypes set up this way.
+
+Simply screw an M2.5 screw through the top of the PCB into a standoff on the bottom side of the case. I like to put one in each corner, using two taller standoffs in the back for a sloped typing surface. It's worth putting rubber adhesive feet on the bottom of these standoffs to keep the keyboard from sliding around.
 
 ---
-
 # Assembly
 - [PCB Assembly](#pcb-assembly)
   - [Main Components](#main-components)
   - [Diodes](#diodes)
   - [Hot-Swap Sockets](#hot-swap-sockets)
-- [Switch and Plate](#switch-and-plate)
+- [Switches and Keycaps](#switches-and-keycaps)
 - [Case Assembly and Mounting](#case-assembly-and-mounting)
 - [Flashing Firmware](#flashing-firmware)
 ---
@@ -321,13 +332,31 @@ Patiently applying heat through a soldering wick is the best way to clean up a f
 
 ---
 
+## Case Assembly
+Uniform does not have its own case (yet!). 
 
-## Switch and Plate
-TODO ...
+See the [Case](#case) section for more info on cases or other mounting options.
 
-## Case Assembly and Mounting
-TODO ...
+## Switches and Keycaps
+Finally, it's time to add the switches and keycaps!
+
+To install switches, you'll need to snap them through their openings in the plate (if you have one) and into the switch sockets on the PCB. Make sure the North side of the switch faces the top of the board. You can use the switch pins to orient them correctly. For most MX-style switches, the rounded protruding side is the North side of the switch. On the [NK Creams](https://novelkeys.com/products/nk-cream-series) shown here, you can see it's the side with the *Kailh* lettering.
+
+![Uniform Switch Install](Uniform_Switch_Install.jpeg)
+
+Take care to ensure the two switch pins enter the socket. It's easy to accidentally bend a pin flat against the switch when snapping the switches into place.
+
+I find it easier to snap the four corner switches into the plate, then fit the whole plate on the PCB before installing the other switches. This helps stabilize the plate in the correct place above the board and makes it easier to snap the other switches in place.
+
+![Uniform Switches Installed](Uniform_Switches_Installed.jpeg)
+
+If you have hot-swap sockets installed, then all you need to do is pop on the keycaps and you're done! 
+
+Otherwise, you'll need to flip the board over and [solder all the switch pins into place](https://thekeeblog.com/soldering-101-mechanical-keyboard-soldering-basics-and-useful-tips/) before installing keycaps.
 
 # Flashing Firmware
-TODO ...
+
+**(Coming Soon)**
+
+Uniform's QMK branch hasn't been integrated into QMK yet. For now, you'll have to clone the [fork](https://github.com/patrickhirsh/qmk_firmware/tree/uniform) and flash the firmware yourself using [QMK Toolbox](https://github.com/qmk/qmk_toolbox).
 
