@@ -79,7 +79,7 @@ Uniform makes use of components that are generally widely available to make orde
 ## Plate
 **[Download the Uniform plate .svg file here](https://github.com/patrickhirsh/Uniform-Keyboard/blob/main/Ref/uniform_plate.svg)**
 
-![Uniform Plate](Uniform_Plate.svg)
+![Uniform Plate](uniform_plate.svg)
 
 There are many options for having plates cut and shipped to you. I've personally used [Ponoko](https://www.ponoko.com/) and have been happy with their quality. Popular plate materials are aluminum and brass, however I've also found acrylic to look and feel quite nice. The thickness of the plate is determined by the type of switches you intend to use. Most switches (including MX style switches) fit best with a **1.5mm-1.6mm** thick plate.
 
