@@ -121,6 +121,8 @@ To get this project off the ground, the Uniform board was designed to fit into a
 
 I've personally done this for the first three prototypes of this board by dremeling off the original standoffs and 3D printing my own using [M2.5 heatset inserts](https://www.amazon.com/gp/product/B08GWKW1K7/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) and [M2.5 screws](https://www.amazon.com/gp/product/B09WJ4WF9K/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1). The 3D printed parts are just cylinders which I've heatset the threaded inserts into, then used double-sided foam tape to fix into the bottom of the case. 
 
+![Uniform TOFU65 Mounting](Uniform_TOFU65_Mounting.jpeg)
+
 If you decide to go this route, it's easiest to screw the standoffs into the bottom of the PCB first, apply the adhesive, then press the entire board down into the bottom of the modified Tofu65 case. **Do this with switches and keycaps installed on all four corners of the board to ensure the keycaps have clearance!** 
 
 ### Caseless Build
