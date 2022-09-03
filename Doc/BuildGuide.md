@@ -159,104 +159,118 @@ Estimated time to completion: **1.5 hours**
 ---
 
 1. Solder the **STM32L072KZT6** MCU component to the PCB at **U1**, taking care to align the dimpled corner on the chip with the white dot on the PCB.
-&nbsp;
+
 This is the most difficult component to solder to the board, so take your time and ensure none of the pins are left bridged together. A little flux paste applied to the surface of the pads before soldering makes the solder flow much easier. 
-&nbsp;
+
 I like to start by soldering a single pin from the MCU to the board. Then, while heating the pin with the soldering iron, I use tweasers to shift the MCU's position until its' feet are aligned with the rest of the pads on the board. Once heat is released from the pin, the chip is fixed in place. Apply the minimum amount of solder necessary to create a clean connection between the remaining pins and their pads.
-&nbsp;
+
 ![MCU Closeup](Uniform_MCU_Closeup.jpeg)
 
 ---
 
 2. Solder the **SN74AHCT1G125DBVR** Logic Level Shifter to the PCB at **U2**.
-&nbsp;
+
 ![Logic Level Shifter](Uniform_Logic_Level_Shifter.png)
 
 ---
 
 3. Solder the **TLV1117-33IDCYG3** Voltage Regulator to the PCB at **VREG1**.
-&nbsp;
+
 ![Voltage Reg](Uniform_Voltage_Reg.png)
 
 ---
 
-4. Solder the **USB4085-GF-A** USB-C Connector to the PCB at **USBC1**. Take care to not bridge any pin connections. Only the *bottom two fins* nearest the pins need to be soldered into the socket (as shown below). 
-&nbsp;
+4. Solder the **USB4085-GF-A** USB-C Connector to the PCB at **USBC1**. 
+
+Take care to not bridge any pin connections. Only the *bottom two fins* nearest the pins need to be soldered into the socket (as shown below). 
+
 ![USBC Connector](Uniform_USBC_Connector.png)
 
 ---
 
-5. Solder the two **10 µF capacitors** to the PCB at **C1** and **C2**. These capacitors are not polarized, so they can be soldered in either orientation. 
-&nbsp;
+5. Solder the two **10 µF capacitors** to the PCB at **C1** and **C2**. 
+
+These capacitors are not polarized, so they can be soldered in either orientation. 
+
 It's easier to first seat the components flush to the board, then bend the legs to secure them in place *before* soldering.
-&nbsp;
+
 ![Uniform 10u Back](Uniform_10u_Back.jpeg) 
-&nbsp;
-![Uniform 10u Cap](Uniform_10u_Cap.jpeg)
-&nbsp;
+
+![Uniform 10u Cap](Uniform_10u_Cap.png])
+
 Once soldered, clip the excess wire.
 
 ---
 
-6. Solder the single **1 µF capacitor** to the PCB at **C6**. This capacitor is not polarized, so it can be soldered in either orientation.
-&nbsp;
-![Uniform 1u Cap](Uniform_1u_Cap.jpeg)
+6. Solder the single **1 µF capacitor** to the PCB at **C6**. 
+
+This capacitor is not polarized, so it can be soldered in either orientation.
+
+![Uniform 1u Cap](Uniform_1u_Cap.png)
 
 ---
 
-7. Solder the three **0.1 µF capacitors** to the PCB at **C3**, **C4**, and **C5**. These capacitors are not polarized, so they can be soldered in either orientation.
-&nbsp;
+7. Solder the three **0.1 µF capacitors** to the PCB at **C3**, **C4**, and **C5**. 
+
+These capacitors are not polarized, so they can be soldered in either orientation.
+
 ![Uniform 0.1u Cap](Uniform_0.1u_Cap.png)
 
 ---
 
-8. Solder the two **10 kOhm resistors** to the PCB at **R3** and **R4**. These resistors can be soldered in either orientation.
-&nbsp;
+8. Solder the two **10 kOhm resistors** to the PCB at **R3** and **R4**. 
+
+These resistors can be soldered in either orientation.
+
 ![Uniform 10k Res](Uniform_10k_Res.png)
 
 ---
 
-9. Solder the two **5.1 kOhm resistors** to the PCB at **R1** and **R2**. These resistors can be soldered in either orientation.
-&nbsp;
+9. Solder the two **5.1 kOhm resistors** to the PCB at **R1** and **R2**. 
+
+These resistors can be soldered in either orientation.
+
 ![Uniform 5.1k Res](Uniform_5.1k_Res.png)
 
 ---
 
-10. Solder the three **NeoPixel Status Leds** to the PCB at **L1**, **L2**, and **L3**. Orientation *does* matter. Take care to ensure the longer legs are seated on the right side of the footprint (the side with the rectangular pad).
-&nbsp;
+10. Solder the three **NeoPixel Status Leds** to the PCB at **L1**, **L2**, and **L3**. 
+
+Orientation *does* matter. Take care to ensure the longer legs are seated on the right side of the footprint (the side with the rectangular pad).
+
 ![Uniform LED Front](Uniform_LED_Front.jpeg)
-&nbsp;
+
 I like to start by only soldering one pin on each LED, that way I can heat the solder on one side and press the LED flush to the board with the other - ensuring it's seated right. Be extra careful when handling the top of the LED while heating its pins on the other side of the board. Don't burn yourself! 
-&nbsp;
+
 ![Uniform LED Back](Uniform_LED_Back.png)
-&nbsp;
+
 Once the first pin is soldered and you're happy with how the LED is seated, solder the other pins in place.
 
 ---
 
 11. Next are the **330 Ohm resistors**. Soldering one into **R5** is *required*, and is used to smooth the data signal to the status LEDs. **R6** is *only necessary if you intend to use the external LED pinout* at **L4**; it's used to smooth L4's data line.
-&nbsp;
+
 ![Uniform 330 Res](Uniform_330_Res.png)
 
 ---
 
 12. Solder the two **OS102011MS2QN1** Reset and Power switches into the PCB at **S1** and **S2**. 
-&nbsp;
+
 I like to tape the switches into place while I solder the first pin, then heat the solder from the bottom while seating the switch into place by pressing it down from the top with my other hand (same technique as used with the status LEDs). The switches are metal and *will get very hot* while applying heat to the pins, so be careful when doing this:
-&nbsp;
+
 ![Uniform Toggle Front](Uniform_Toggle_Front.jpeg)
 ![Uniform Toggle Back](Uniform_Toggle_Back.png)
-&nbsp;
+
 Once the switches are seated and aligned to your liking, solder the remaining pins to fix the switches in place. You do not need to apply solder to the outer pegs, only the inner 3 pins.
-&nbsp;
+
 ![Uniform Toggle Final](Uniform_Toggle_Final.jpeg)
 
 ---
 
 13. **(Optional)** If you've purchased the **826629-5** 5-pin header for SWD debugging, solder it to the PCB at **SWD1**. 
-&nbsp;
+
 I used the same tape, single pin, heat and re-seat technique for this component as well. Take *extra care* here where handling the header while heating the pins as you'll be in contact with the *same metal pins that you're heating from the bottom*. Be sure not to touch the pin you're currently heating when reseating the header. 
-&nbsp;
+
 ![Uniform SWD](Uniform_SWD.png)
 
 ---
