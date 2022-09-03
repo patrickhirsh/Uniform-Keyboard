@@ -45,7 +45,7 @@ Before beginning assembly, it's a good idea to have a plan for each required com
 ## PCB
 **[Download the Uniform PCB gerber files here](https://github.com/patrickhirsh/Uniform-Keyboard/tree/main/PCB/Uniform/GBR)**
 
-I don't sell or distribute PCBs myself, so you'll need to order your own through the PCB manufacturer of your choice. I usually use [JLPCB](https://jlcpcb.com/), but you may want to shop around to find the supplier that gets you the best deal. Most manufacturers will ask you to upload gerber files. In the case of JLPCB, you can simply upload the **UniformGBR.zip** file, which contains all the zipped gerbers.
+I don't sell or distribute PCBs myself, so you'll need to order your own through a PCB manufacturer of your choice. I usually use [JLPCB](https://jlcpcb.com/), but you may want to shop around to find the supplier that gets you the best deal. Most manufacturers will ask you to upload gerber files. In the case of JLPCB, you can simply upload the **UniformGBR.zip** file, which contains all the zipped gerbers.
 
 Uniform makes use of components that are generally widely available to make ordering components as easy as possible. The links provided are for the distributors I've personally sourced parts from, however these components may not always be in stock. Components like capacitors, resistors, and diodes can easily be substituted for virtually any identical variant from another manufacturer and will generally fit in their through-hole footprints on the PCB. Components with specific footprints like the MCU, Logic Level Shifter, Status LEDs, USB-C Connector, and Power / Reset Switches *require the exact component* to fit correctly on the PCB.
 
@@ -65,7 +65,7 @@ Uniform makes use of components that are generally widely available to make orde
 |10 kOhm Resistor|[CFR16J10K](https://www.digikey.com/en/products/detail/te-connectivity-passive-product/CFR16J10K/3317912)|2|$0.20|
 |5.1 kOhm Resistor|[RNMF14FTC5K10](https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNMF14FTC5K10/2617363)|2|$0.20|
 |330 Ohm Resistor|[MFR-25FRF52-330R](https://www.mouser.com/ProductDetail/YAGEO/MFR-25FRF52-330R?qs=oAGoVhmvjhxv5KjCXy24Qg%3D%3D)|1|$0.10|
-||||**$24.40**|
+|**Total**|||**$24.40**|
 
 ### Optional PCB Components
 | Component | Mfr. # | Quantity | Est. Price | Note |
@@ -73,7 +73,7 @@ Uniform makes use of components that are generally widely available to make orde
 |Hot-Swap Sockets|[7305-0-15-15-47-27-10-0](https://www.digikey.com/en/products/detail/mill-max-manufacturing-corp/7305-0-15-15-47-27-10-0/1765737)|136|$47.16| other [Mill-Max Options](https://divinikey.com/products/mill-max-hotswap-sockets) or [Kailh](https://divinikey.com/products/kailh-hot-swap-sockets) are good alternatives |
 |SWD Header|[826629-5](https://www.digikey.com/en/products/detail/te-connectivity-amp-connectors/826629-5/2276109)|1|$0.71|MCU debug pinout header for debugging and easier flashing|
 |330 Ohm Resistor|[MFR-25FRF52-330R](https://www.mouser.com/ProductDetail/YAGEO/MFR-25FRF52-330R?qs=oAGoVhmvjhxv5KjCXy24Qg%3D%3D)|1|$0.10|Necessary if the on-board external LED header will be used|
-||||**$47.97**||
+|**Total**|||**$47.97**||
 
 ---
 ## Plate
@@ -81,7 +81,11 @@ Uniform makes use of components that are generally widely available to make orde
 
 There are many options for having plates cut and shipped to you. I've personally used [Ponoko](https://www.ponoko.com/) and have been happy with their quality. Popular plate materials are aluminum and brass, however I've also found acrylic to look and feel quite nice. The thickness of the plate is determined by the type of switches you intend to use. Most switches (including MX style switches) fit best with a **1.5mm-1.6mm** thick plate.
 
-**Note:** the plate does *not* include holes drilled for mount screw access through the plate. This is because adding mount holes into the plate template results in cuts far too dense for most laser cutting services. If mount screw access through the plate is important to you, the best option is to drill the holes yourself after receiving the plates. Be mindful of the plate material chosen if this is your plan. I've found Aluminium to be quite easy to drill through, but materials like acrylic to be far too brittle to drill into without cracking or shattering.
+**Note:** the plate does *not* include holes drilled for mount screw access through the plate. This is because adding mount holes into the plate template results in cuts too dense for most laser cutting services. If mount screw access through the plate is important to you, the best option is to drill the holes yourself after receiving the plates. Be mindful of the plate material chosen if this is your plan. I've found Aluminium to be quite easy to drill through, but materials like acrylic to be far too brittle to drill into without cracking or shattering.
+
+**Why doesn't the plate include cuts for mount screw access holes?** Adding mount holes into the plate file results in a very small amount of plate material between the holes and the corner of the switch cutouts. These thin bits of material typically don't meet the spec of most laser cutting services. Fortunately it's pretty easy to drill holes into your plate yourself with a regular drill and drill bits. Be mindful of the plate material chosen if this is your plan. I've found Aluminium to be quite easy to drill through, but materials like acrylic to be far too brittle to drill into without cracking or shattering.
+
+**Why should I drill mount screw access holes into the plate?** Drilling holes into the plate above all the mount screw positions on the PCB allow you to unscrew the PCB from the case without taking out all the switches. If you don't have holes in the plate, the plate will cover the PCB mount screws, meaning the only way to get to them is to remove *all the switches and keycaps* so you can pop the plate off. If you've got hot-swap switches, this isn't a big deal (10 minutes tops to get the plate off). With soldered switches, mount screw access holes is *basically a requirement* unless you intend to desolder all your switches every time you need to remove your PCB from its case 😉.
 
 ---
 ## Keyboard Components
