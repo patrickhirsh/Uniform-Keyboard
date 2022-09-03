@@ -81,13 +81,13 @@ Uniform makes use of components that are generally widely available to make orde
 
 There are many options for having plates cut and shipped to you. I've personally used [Ponoko](https://www.ponoko.com/) and have been happy with their quality. Popular plate materials are aluminum and brass, however I've also found acrylic to look and feel quite nice. The thickness of the plate is determined by the type of switches you intend to use. Most switches (including MX style switches) fit best with a **1.5mm-1.6mm** thick plate.
 
-**Note:** the plate does *not* include holes drilled for mount screw access through the plate. This is because adding mount holes into the plate template results in cuts too dense for most laser cutting services. If mount screw access through the plate is important to you, the best option is to drill the holes yourself after receiving the plates. Be mindful of the plate material chosen if this is your plan. I've found Aluminium to be quite easy to drill through, but materials like acrylic to be far too brittle to drill into without cracking or shattering.
-
 **Why doesn't the plate include cuts for mount screw access holes?** 
 > Adding mount holes into the plate file results in a very small amount of plate material between the holes and the corner of the switch cutouts. These thin bits of material typically don't meet the spec of most laser cutting services. Fortunately it's pretty easy to drill holes into your plate yourself with a regular drill and drill bits. Be mindful of the plate material chosen if this is your plan. I've found Aluminium to be quite easy to drill through, but materials like acrylic to be far too brittle to drill into without cracking or shattering.
 
 **Why should I drill mount screw access holes into the plate?** 
 > Drilling holes into the plate above all the mount screw positions on the PCB allow you to unscrew the PCB from the case without taking out all the switches. If you don't have holes in the plate, the plate will cover the PCB mount screws, meaning the only way to get to them is to remove *all the switches and keycaps* so you can pop the plate off. If you've got hot-swap switches, this isn't a big deal (10 minutes tops to get the plate off). With soldered switches, mount screw access holes is *basically a requirement* unless you intend to desolder all your switches every time you need to remove your PCB from its case 😉.
+
+![Uniform Plate Drilling Example](Uniform_Plate_Drilling_Example.jpeg)
 
 ---
 ## Keyboard Components
