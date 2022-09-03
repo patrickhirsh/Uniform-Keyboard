@@ -196,7 +196,7 @@ It's easier to first seat the components flush to the board, then bend the legs 
 
 ![Uniform 10u Back](Uniform_10u_Back.jpeg) 
 
-![Uniform 10u Cap](Uniform_10u_Cap.png])
+![Uniform 10u Cap](Uniform_10u_Cap.png)
 
 Once soldered, clip the excess wire.
 
