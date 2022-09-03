@@ -117,7 +117,11 @@ There are 2 additional **M2.5** mount holes on the left side of the board. These
 ![Uniform PCB Wireframe Acrlic Mounts](Uniform_PCB_Wireframe_Acrylic_Mounts.png)
 
 ### TOFU65
-To get this project off the ground, the Uniform board was designed to fit into a [TOFU65](https://kbdfans.com/collections/tofu65). The USB-C Port lines up with the case cutout and the PCB dimensions match those of other compatible TOFU65 PCBs. The only caveat is that the PCB mount holes *do not* line up with those in the TOFU65. This is a limitation of the ortholinear layout Uniform utilizes - the mount points overlap with switch positions on Uniform's board, making it impossible to accomodate them. This means you will need to come up with your own mounting solution if you'd like to build this keyboard in a TOFU65 case. 
+To get this project off the ground, the Uniform PCB was designed to fit into a [TOFU65](https://kbdfans.com/collections/tofu65). 
+
+![Uniform TOFU65 Example](Uniform_TOFU65_Example.jpeg)
+
+The USB-C Port lines up with the case cutout and the PCB dimensions match those of other compatible TOFU65 PCBs. **The only caveat is that the PCB mount holes *do not* line up with those in the TOFU65**. This is a limitation of the ortholinear layout Uniform utilizes - the mount points overlap with switch positions on Uniform's board, making it impossible to accomodate them. This means you will need to come up with your own mounting solution if you'd like to build this keyboard in a TOFU65 case. 
 
 I've personally done this for the first three prototypes of this board by dremeling off the original standoffs and 3D printing my own using [M2.5 heatset inserts](https://www.amazon.com/gp/product/B08GWKW1K7/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) and [M2.5 screws](https://www.amazon.com/gp/product/B09WJ4WF9K/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1). The 3D printed parts are just cylinders which I've heatset the threaded inserts into, then used double-sided foam tape to fix into the bottom of the case. 
 
