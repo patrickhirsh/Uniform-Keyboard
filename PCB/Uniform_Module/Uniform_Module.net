@@ -1,0 +1,3889 @@
+(export 
+  (version D) 
+  (design 
+    (source D:\Projects\Uniform-Keyboard\PCB\Uniform_Module\\\Uniform.sch) 
+    (date "2/9/2022 12:15:15 AM") 
+    (tool "Eeschema (5.1.10)-1") 
+    (sheet 
+      (number 1) 
+      (name /) 
+      (tstamps /) 
+      (title_block 
+        (title "Uniform Keyboard") 
+        (company) 
+        (rev) 
+        (date) 
+        (source Uniform_Module.sch) 
+        (comment 
+          (number 1) 
+          (value "")) 
+        (comment 
+          (number 2) 
+          (value "")) 
+        (comment 
+          (number 3) 
+          (value "")) 
+        (comment 
+          (number 4) 
+          (value ""))))) 
+  (components 
+    (comp 
+      (ref K_0_0) 
+      (value KEYSW) 
+      (footprint keyswitches:SW_MX) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part KEYSW) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61FF618A)) 
+    (comp 
+      (ref K_0_1) 
+      (value KEYSW) 
+      (footprint keyswitches:SW_MX) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part KEYSW) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61FFC313)) 
+    (comp 
+      (ref D_0_1) 
+      (value D) 
+      (footprint 1N4148:DIOAD829W49L456D191) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part D) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61FFD38F)) 
+    (comp 
+      (ref D_0_0) 
+      (value D) 
+      (footprint 1N4148:DIOAD829W49L456D191) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part D) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620005F1)) 
+    (comp 
+      (ref K_0_2) 
+      (value KEYSW) 
+      (footprint keyswitches:SW_MX) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part KEYSW) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6200A1CE)) 
+    (comp 
+      (ref K_0_3) 
+      (value KEYSW) 
+      (footprint keyswitches:SW_MX) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part KEYSW) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6200A1D4)) 
+    (comp 
+      (ref D_0_3) 
+      (value D) 
+      (footprint 1N4148:DIOAD829W49L456D191) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part D) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6200A1DA)) 
+    (comp 
+      (ref D_0_2) 
+      (value D) 
+      (footprint 1N4148:DIOAD829W49L456D191) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part D) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6200A1E0)) 
+    (comp 
+      (ref K_0_4) 
+      (value KEYSW) 
+      (footprint keyswitches:SW_MX) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part KEYSW) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6200CBEA)) 
+    (comp 
+      (ref K_0_5) 
+      (value KEYSW) 
+      (footprint keyswitches:SW_MX) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part KEYSW) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6200CBF0)) 
+    (comp 
+      (ref D_0_5) 
+      (value D) 
+      (footprint 1N4148:DIOAD829W49L456D191) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part D) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6200CBF6)) 
+    (comp 
+      (ref D_0_4) 
+      (value D) 
+      (footprint 1N4148:DIOAD829W49L456D191) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part D) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6200CBFC)) 
+    (comp 
+      (ref K_0_6) 
+      (value KEYSW) 
+      (footprint keyswitches:SW_MX) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part KEYSW) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6200EB06)) 
+    (comp 
+      (ref K_0_7) 
+      (value KEYSW) 
+      (footprint keyswitches:SW_MX) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part KEYSW) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6200EB0C)) 
+    (comp 
+      (ref D_0_7) 
+      (value D) 
+      (footprint 1N4148:DIOAD829W49L456D191) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part D) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6200EB12)) 
+    (comp 
+      (ref D_0_6) 
+      (value D) 
+      (footprint 1N4148:DIOAD829W49L456D191) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part D) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6200EB18)) 
+    (comp 
+      (ref K_0_8) 
+      (value KEYSW) 
+      (footprint keyswitches:SW_MX) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part KEYSW) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6201013E)) 
+    (comp 
+      (ref K_0_9) 
+      (value KEYSW) 
+      (footprint keyswitches:SW_MX) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part KEYSW) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 62010144)) 
+    (comp 
+      (ref D_0_9) 
+      (value D) 
+      (footprint 1N4148:DIOAD829W49L456D191) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part D) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6201014A)) 
+    (comp 
+      (ref D_0_8) 
+      (value D) 
+      (footprint 1N4148:DIOAD829W49L456D191) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part D) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 62010150)) 
+    (comp 
+      (ref K_0_10) 
+      (value KEYSW) 
+      (footprint keyswitches:SW_MX) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part KEYSW) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 62013286)) 
+    (comp 
+      (ref K_0_11) 
+      (value KEYSW) 
+      (footprint keyswitches:SW_MX) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part KEYSW) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6201328C)) 
+    (comp 
+      (ref D_0_11) 
+      (value D) 
+      (footprint 1N4148:DIOAD829W49L456D191) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part D) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 62013292)) 
+    (comp 
+      (ref D_0_10) 
+      (value D) 
+      (footprint 1N4148:DIOAD829W49L456D191) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part D) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 62013298)) 
+    (comp 
+      (ref K_0_12) 
+      (value KEYSW) 
+      (footprint keyswitches:SW_MX) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part KEYSW) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620158D6)) 
+    (comp 
+      (ref D_0_12) 
+      (value D) 
+      (footprint 1N4148:DIOAD829W49L456D191) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part D) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620158E8)) 
+    (comp 
+      (ref K_1_0) 
+      (value KEYSW) 
+      (footprint keyswitches:SW_MX) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part KEYSW) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620C4538)) 
+    (comp 
+      (ref K_1_1) 
+      (value KEYSW) 
+      (footprint keyswitches:SW_MX) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part KEYSW) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620C453E)) 
+    (comp 
+      (ref D_1_1) 
+      (value D) 
+      (footprint 1N4148:DIOAD829W49L456D191) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part D) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620C4544)) 
+    (comp 
+      (ref D_1_0) 
+      (value D) 
+      (footprint 1N4148:DIOAD829W49L456D191) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part D) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620C454A)) 
+    (comp 
+      (ref K_1_2) 
+      (value KEYSW) 
+      (footprint keyswitches:SW_MX) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part KEYSW) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620C4554)) 
+    (comp 
+      (ref K_1_3) 
+      (value KEYSW) 
+      (footprint keyswitches:SW_MX) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part KEYSW) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620C455A)) 
+    (comp 
+      (ref D_1_3) 
+      (value D) 
+      (footprint 1N4148:DIOAD829W49L456D191) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part D) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620C4560)) 
+    (comp 
+      (ref D_1_2) 
+      (value D) 
+      (footprint 1N4148:DIOAD829W49L456D191) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part D) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620C4566)) 
+    (comp 
+      (ref K_1_4) 
+      (value KEYSW) 
+      (footprint keyswitches:SW_MX) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part KEYSW) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620C4570)) 
+    (comp 
+      (ref K_1_5) 
+      (value KEYSW) 
+      (footprint keyswitches:SW_MX) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part KEYSW) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620C4576)) 
+    (comp 
+      (ref D_1_5) 
+      (value D) 
+      (footprint 1N4148:DIOAD829W49L456D191) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part D) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620C457C)) 
+    (comp 
+      (ref D_1_4) 
+      (value D) 
+      (footprint 1N4148:DIOAD829W49L456D191) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part D) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620C4582)) 
+    (comp 
+      (ref K_1_6) 
+      (value KEYSW) 
+      (footprint keyswitches:SW_MX) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part KEYSW) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620C458C)) 
+    (comp 
+      (ref K_1_7) 
+      (value KEYSW) 
+      (footprint keyswitches:SW_MX) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part KEYSW) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620C4592)) 
+    (comp 
+      (ref D_1_7) 
+      (value D) 
+      (footprint 1N4148:DIOAD829W49L456D191) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part D) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620C4598)) 
+    (comp 
+      (ref D_1_6) 
+      (value D) 
+      (footprint 1N4148:DIOAD829W49L456D191) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part D) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620C459E)) 
+    (comp 
+      (ref K_1_8) 
+      (value KEYSW) 
+      (footprint keyswitches:SW_MX) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part KEYSW) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620C45A8)) 
+    (comp 
+      (ref K_1_9) 
+      (value KEYSW) 
+      (footprint keyswitches:SW_MX) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part KEYSW) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620C45AE)) 
+    (comp 
+      (ref D_1_9) 
+      (value D) 
+      (footprint 1N4148:DIOAD829W49L456D191) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part D) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620C45B4)) 
+    (comp 
+      (ref D_1_8) 
+      (value D) 
+      (footprint 1N4148:DIOAD829W49L456D191) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part D) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620C45BA)) 
+    (comp 
+      (ref K_1_10) 
+      (value KEYSW) 
+      (footprint keyswitches:SW_MX) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part KEYSW) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620C45C4)) 
+    (comp 
+      (ref K_1_11) 
+      (value KEYSW) 
+      (footprint keyswitches:SW_MX) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part KEYSW) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620C45CA)) 
+    (comp 
+      (ref D_1_11) 
+      (value D) 
+      (footprint 1N4148:DIOAD829W49L456D191) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part D) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620C45D0)) 
+    (comp 
+      (ref D_1_10) 
+      (value D) 
+      (footprint 1N4148:DIOAD829W49L456D191) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part D) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620C45D6)) 
+    (comp 
+      (ref K_1_12) 
+      (value KEYSW) 
+      (footprint keyswitches:SW_MX) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part KEYSW) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620C45E0)) 
+    (comp 
+      (ref D_1_12) 
+      (value D) 
+      (footprint 1N4148:DIOAD829W49L456D191) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part D) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620C45E6)) 
+    (comp 
+      (ref K_2_0) 
+      (value KEYSW) 
+      (footprint keyswitches:SW_MX) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part KEYSW) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620D634C)) 
+    (comp 
+      (ref K_2_1) 
+      (value KEYSW) 
+      (footprint keyswitches:SW_MX) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part KEYSW) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620D6352)) 
+    (comp 
+      (ref D_2_1) 
+      (value D) 
+      (footprint 1N4148:DIOAD829W49L456D191) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part D) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620D6358)) 
+    (comp 
+      (ref D_2_0) 
+      (value D) 
+      (footprint 1N4148:DIOAD829W49L456D191) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part D) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620D635E)) 
+    (comp 
+      (ref K_2_2) 
+      (value KEYSW) 
+      (footprint keyswitches:SW_MX) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part KEYSW) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620D6368)) 
+    (comp 
+      (ref K_2_3) 
+      (value KEYSW) 
+      (footprint keyswitches:SW_MX) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part KEYSW) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620D636E)) 
+    (comp 
+      (ref D_2_3) 
+      (value D) 
+      (footprint 1N4148:DIOAD829W49L456D191) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part D) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620D6374)) 
+    (comp 
+      (ref D_2_2) 
+      (value D) 
+      (footprint 1N4148:DIOAD829W49L456D191) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part D) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620D637A)) 
+    (comp 
+      (ref K_2_4) 
+      (value KEYSW) 
+      (footprint keyswitches:SW_MX) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part KEYSW) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620D6384)) 
+    (comp 
+      (ref K_2_5) 
+      (value KEYSW) 
+      (footprint keyswitches:SW_MX) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part KEYSW) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620D638A)) 
+    (comp 
+      (ref D_2_5) 
+      (value D) 
+      (footprint 1N4148:DIOAD829W49L456D191) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part D) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620D6390)) 
+    (comp 
+      (ref D_2_4) 
+      (value D) 
+      (footprint 1N4148:DIOAD829W49L456D191) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part D) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620D6396)) 
+    (comp 
+      (ref K_2_6) 
+      (value KEYSW) 
+      (footprint keyswitches:SW_MX) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part KEYSW) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620D63A0)) 
+    (comp 
+      (ref K_2_7) 
+      (value KEYSW) 
+      (footprint keyswitches:SW_MX) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part KEYSW) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620D63A6)) 
+    (comp 
+      (ref D_2_7) 
+      (value D) 
+      (footprint 1N4148:DIOAD829W49L456D191) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part D) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620D63AC)) 
+    (comp 
+      (ref D_2_6) 
+      (value D) 
+      (footprint 1N4148:DIOAD829W49L456D191) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part D) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620D63B2)) 
+    (comp 
+      (ref K_2_8) 
+      (value KEYSW) 
+      (footprint keyswitches:SW_MX) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part KEYSW) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620D63BC)) 
+    (comp 
+      (ref K_2_9) 
+      (value KEYSW) 
+      (footprint keyswitches:SW_MX) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part KEYSW) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620D63C2)) 
+    (comp 
+      (ref D_2_9) 
+      (value D) 
+      (footprint 1N4148:DIOAD829W49L456D191) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part D) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620D63C8)) 
+    (comp 
+      (ref D_2_8) 
+      (value D) 
+      (footprint 1N4148:DIOAD829W49L456D191) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part D) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620D63CE)) 
+    (comp 
+      (ref K_2_10) 
+      (value KEYSW) 
+      (footprint keyswitches:SW_MX) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part KEYSW) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620D63D8)) 
+    (comp 
+      (ref K_2_11) 
+      (value KEYSW) 
+      (footprint keyswitches:SW_MX) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part KEYSW) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620D63DE)) 
+    (comp 
+      (ref D_2_11) 
+      (value D) 
+      (footprint 1N4148:DIOAD829W49L456D191) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part D) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620D63E4)) 
+    (comp 
+      (ref D_2_10) 
+      (value D) 
+      (footprint 1N4148:DIOAD829W49L456D191) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part D) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620D63EA)) 
+    (comp 
+      (ref K_2_12) 
+      (value KEYSW) 
+      (footprint keyswitches:SW_MX) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part KEYSW) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620D63F4)) 
+    (comp 
+      (ref D_2_12) 
+      (value D) 
+      (footprint 1N4148:DIOAD829W49L456D191) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part D) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620D63FA)) 
+    (comp 
+      (ref K_3_0) 
+      (value KEYSW) 
+      (footprint keyswitches:SW_MX) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part KEYSW) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620E3AA4)) 
+    (comp 
+      (ref K_3_1) 
+      (value KEYSW) 
+      (footprint keyswitches:SW_MX) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part KEYSW) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620E3AAA)) 
+    (comp 
+      (ref D_3_1) 
+      (value D) 
+      (footprint 1N4148:DIOAD829W49L456D191) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part D) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620E3AB0)) 
+    (comp 
+      (ref D_3_0) 
+      (value D) 
+      (footprint 1N4148:DIOAD829W49L456D191) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part D) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620E3AB6)) 
+    (comp 
+      (ref K_3_2) 
+      (value KEYSW) 
+      (footprint keyswitches:SW_MX) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part KEYSW) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620E3AC0)) 
+    (comp 
+      (ref K_3_3) 
+      (value KEYSW) 
+      (footprint keyswitches:SW_MX) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part KEYSW) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620E3AC6)) 
+    (comp 
+      (ref D_3_2) 
+      (value D) 
+      (footprint 1N4148:DIOAD829W49L456D191) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part D) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620E3AD2)) 
+    (comp 
+      (ref K_3_4) 
+      (value KEYSW) 
+      (footprint keyswitches:SW_MX) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part KEYSW) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620E3ADC)) 
+    (comp 
+      (ref K_3_5) 
+      (value KEYSW) 
+      (footprint keyswitches:SW_MX) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part KEYSW) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620E3AE2)) 
+    (comp 
+      (ref D_3_5) 
+      (value D) 
+      (footprint 1N4148:DIOAD829W49L456D191) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part D) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620E3AE8)) 
+    (comp 
+      (ref D_3_4) 
+      (value D) 
+      (footprint 1N4148:DIOAD829W49L456D191) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part D) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620E3AEE)) 
+    (comp 
+      (ref K_3_6) 
+      (value KEYSW) 
+      (footprint keyswitches:SW_MX) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part KEYSW) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620E3AF8)) 
+    (comp 
+      (ref K_3_7) 
+      (value KEYSW) 
+      (footprint keyswitches:SW_MX) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part KEYSW) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620E3AFE)) 
+    (comp 
+      (ref D_3_7) 
+      (value D) 
+      (footprint 1N4148:DIOAD829W49L456D191) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part D) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620E3B04)) 
+    (comp 
+      (ref D_3_6) 
+      (value D) 
+      (footprint 1N4148:DIOAD829W49L456D191) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part D) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620E3B0A)) 
+    (comp 
+      (ref K_3_8) 
+      (value KEYSW) 
+      (footprint keyswitches:SW_MX) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part KEYSW) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620E3B14)) 
+    (comp 
+      (ref K_3_9) 
+      (value KEYSW) 
+      (footprint keyswitches:SW_MX) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part KEYSW) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620E3B1A)) 
+    (comp 
+      (ref D_3_9) 
+      (value D) 
+      (footprint 1N4148:DIOAD829W49L456D191) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part D) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620E3B20)) 
+    (comp 
+      (ref D_3_8) 
+      (value D) 
+      (footprint 1N4148:DIOAD829W49L456D191) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part D) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620E3B26)) 
+    (comp 
+      (ref K_3_10) 
+      (value KEYSW) 
+      (footprint keyswitches:SW_MX) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part KEYSW) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620E3B30)) 
+    (comp 
+      (ref K_3_11) 
+      (value KEYSW) 
+      (footprint keyswitches:SW_MX) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part KEYSW) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620E3B36)) 
+    (comp 
+      (ref D_3_11) 
+      (value D) 
+      (footprint 1N4148:DIOAD829W49L456D191) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part D) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620E3B3C)) 
+    (comp 
+      (ref D_3_10) 
+      (value D) 
+      (footprint 1N4148:DIOAD829W49L456D191) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part D) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620E3B42)) 
+    (comp 
+      (ref K_3_12) 
+      (value KEYSW) 
+      (footprint keyswitches:SW_MX) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part KEYSW) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620E3B4C)) 
+    (comp 
+      (ref D_3_12) 
+      (value D) 
+      (footprint 1N4148:DIOAD829W49L456D191) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part D) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620E3B52)) 
+    (comp 
+      (ref K_4_0) 
+      (value KEYSW) 
+      (footprint keyswitches:SW_MX) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part KEYSW) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620F2B46)) 
+    (comp 
+      (ref K_4_1) 
+      (value KEYSW) 
+      (footprint keyswitches:SW_MX) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part KEYSW) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620F2B4C)) 
+    (comp 
+      (ref D_4_1) 
+      (value D) 
+      (footprint 1N4148:DIOAD829W49L456D191) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part D) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620F2B52)) 
+    (comp 
+      (ref D_4_0) 
+      (value D) 
+      (footprint 1N4148:DIOAD829W49L456D191) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part D) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620F2B58)) 
+    (comp 
+      (ref K_4_2) 
+      (value KEYSW) 
+      (footprint keyswitches:SW_MX) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part KEYSW) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620F2B62)) 
+    (comp 
+      (ref D_4_2) 
+      (value D) 
+      (footprint 1N4148:DIOAD829W49L456D191) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part D) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620F2B74)) 
+    (comp 
+      (ref K_4_4) 
+      (value KEYSW) 
+      (footprint keyswitches:SW_MX) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part KEYSW) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620F2B7E)) 
+    (comp 
+      (ref K_4_5) 
+      (value KEYSW) 
+      (footprint keyswitches:SW_MX) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part KEYSW) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620F2B84)) 
+    (comp 
+      (ref D_4_5) 
+      (value D) 
+      (footprint 1N4148:DIOAD829W49L456D191) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part D) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620F2B8A)) 
+    (comp 
+      (ref D_4_4) 
+      (value D) 
+      (footprint 1N4148:DIOAD829W49L456D191) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part D) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620F2B90)) 
+    (comp 
+      (ref K_4_6) 
+      (value KEYSW) 
+      (footprint keyswitches:SW_MX) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part KEYSW) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620F2B9A)) 
+    (comp 
+      (ref D_4_6) 
+      (value D) 
+      (footprint 1N4148:DIOAD829W49L456D191) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part D) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620F2BAC)) 
+    (comp 
+      (ref K_4_8) 
+      (value KEYSW) 
+      (footprint keyswitches:SW_MX) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part KEYSW) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620F2BB6)) 
+    (comp 
+      (ref K_4_9) 
+      (value KEYSW) 
+      (footprint keyswitches:SW_MX) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part KEYSW) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620F2BBC)) 
+    (comp 
+      (ref D_4_9) 
+      (value D) 
+      (footprint 1N4148:DIOAD829W49L456D191) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part D) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620F2BC2)) 
+    (comp 
+      (ref D_4_8) 
+      (value D) 
+      (footprint 1N4148:DIOAD829W49L456D191) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part D) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620F2BC8)) 
+    (comp 
+      (ref K_4_10) 
+      (value KEYSW) 
+      (footprint keyswitches:SW_MX) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part KEYSW) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620F2BD2)) 
+    (comp 
+      (ref K_4_11) 
+      (value KEYSW) 
+      (footprint keyswitches:SW_MX) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part KEYSW) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620F2BD8)) 
+    (comp 
+      (ref D_4_11) 
+      (value D) 
+      (footprint 1N4148:DIOAD829W49L456D191) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part D) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620F2BDE)) 
+    (comp 
+      (ref D_4_10) 
+      (value D) 
+      (footprint 1N4148:DIOAD829W49L456D191) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part D) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620F2BE4)) 
+    (comp 
+      (ref K_4_12) 
+      (value KEYSW) 
+      (footprint keyswitches:SW_MX) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part KEYSW) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620F2BEE)) 
+    (comp 
+      (ref D_4_12) 
+      (value D) 
+      (footprint 1N4148:DIOAD829W49L456D191) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part D) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620F2BF4)) 
+    (comp 
+      (ref K_0_13) 
+      (value KEYSW) 
+      (footprint keyswitches:SW_MX) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part KEYSW) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 62108696)) 
+    (comp 
+      (ref D_0_13) 
+      (value D) 
+      (footprint 1N4148:DIOAD829W49L456D191) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part D) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6210869C)) 
+    (comp 
+      (ref K_1_13) 
+      (value KEYSW) 
+      (footprint keyswitches:SW_MX) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part KEYSW) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 621086A4)) 
+    (comp 
+      (ref D_1_13) 
+      (value D) 
+      (footprint 1N4148:DIOAD829W49L456D191) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part D) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 621086AA)) 
+    (comp 
+      (ref K_2_13) 
+      (value KEYSW) 
+      (footprint keyswitches:SW_MX) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part KEYSW) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 621086B2)) 
+    (comp 
+      (ref D_2_13) 
+      (value D) 
+      (footprint 1N4148:DIOAD829W49L456D191) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part D) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 621086B8)) 
+    (comp 
+      (ref K_3_13) 
+      (value KEYSW) 
+      (footprint keyswitches:SW_MX) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part KEYSW) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 621086C0)) 
+    (comp 
+      (ref D_3_13) 
+      (value D) 
+      (footprint 1N4148:DIOAD829W49L456D191) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part D) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 621086C6)) 
+    (comp 
+      (ref K_4_13) 
+      (value KEYSW) 
+      (footprint keyswitches:SW_MX) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part KEYSW) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 621086CE)) 
+    (comp 
+      (ref D_4_13) 
+      (value D) 
+      (footprint 1N4148:DIOAD829W49L456D191) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part D) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 621086D4)) 
+    (comp 
+      (ref VOLT_REG1) 
+      (value TLV1117-33) 
+      (footprint TLV1117-33IDCY:SOT230P700X180-4N) 
+      (datasheet http://www.ti.com/lit/ds/symlink/tlv1117.pdf) 
+      (libsource 
+        (lib Regulator_Linear) 
+        (part TLV1117-33) 
+        (description "800mA Low-Dropout Linear Regulator, 3.3V fixed output, TO-220/TO-252/TO-263/SOT-223")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 633F4BE5)) 
+    (comp 
+      (ref C2) 
+      (value 10uf) 
+      (footprint ul_FG16X7R1E106KRT06:FG16X7R1E106KRT06) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part C_Small) 
+        (description "Unpolarized capacitor, small symbol")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 63425CFE)) 
+    (comp 
+      (ref C1) 
+      (value 10uf) 
+      (footprint ul_FG16X7R1E106KRT06:FG16X7R1E106KRT06) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part C_Small) 
+        (description "Unpolarized capacitor, small symbol")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6342748D)) 
+    (comp 
+      (ref C3) 
+      (value 0.1uf) 
+      (footprint Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part C_Small) 
+        (description "Unpolarized capacitor, small symbol")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 62083E65)) 
+    (comp 
+      (ref C4) 
+      (value 0.1uf) 
+      (footprint Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part C_Small) 
+        (description "Unpolarized capacitor, small symbol")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620FAD88)) 
+    (comp 
+      (ref CON2) 
+      (value Conn_01x03) 
+      (footprint Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector_Generic) 
+        (part Conn_01x03) 
+        (description "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6398FB89)) 
+    (comp 
+      (ref S2) 
+      (value OS102011MS2QN1) 
+      (footprint OS102011MS2QN1:SW_OS102011MS2QN1) 
+      (fields 
+        (field 
+          (name MANUFACTURER) C&K) 
+        (field 
+          (name STANDARD) "MANUFACTURER RECOMMENDATIONS")) 
+      (libsource 
+        (lib OS102011MS2QN1) 
+        (part OS102011MS2QN1) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 642FD7EC)) 
+    (comp 
+      (ref R2) 
+      (value 10k) 
+      (footprint Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 636AAC45)) 
+    (comp 
+      (ref R4) 
+      (value 10k) 
+      (footprint Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 635EBC32)) 
+    (comp 
+      (ref USBC1) 
+      (value USB4085-GF-A_REVA4) 
+      (footprint USB4085-GF-A_REVA4:GCT_USB4085-GF-A_REVA4) 
+      (fields 
+        (field 
+          (name MANUFACTURER) "Global Connector Technology") 
+        (field 
+          (name MAXIMUM_PACKAGE_HEIGHT) 3.46mm) 
+        (field 
+          (name PARTREV) A4) 
+        (field 
+          (name STANDARD) "Manufacturer Recommendations")) 
+      (libsource 
+        (lib USB4085-GF-A_REVA4) 
+        (part USB4085-GF-A_REVA4) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 63C7831B)) 
+    (comp 
+      (ref R1) 
+      (value 5.1k) 
+      (footprint Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 63EB21F8)) 
+    (comp 
+      (ref R3) 
+      (value 5.1k) 
+      (footprint Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 63EB4F24)) 
+    (comp 
+      (ref S1) 
+      (value OS102011MS2QN1) 
+      (footprint OS102011MS2QN1:SW_OS102011MS2QN1) 
+      (fields 
+        (field 
+          (name MANUFACTURER) C&K) 
+        (field 
+          (name STANDARD) "MANUFACTURER RECOMMENDATIONS")) 
+      (libsource 
+        (lib OS102011MS2QN1) 
+        (part OS102011MS2QN1) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 643E1EA0)) 
+    (comp 
+      (ref R5) 
+      (value 330) 
+      (footprint Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620A87D1)) 
+    (comp 
+      (ref CON1) 
+      (value 826629-5) 
+      (footprint 826629-5:TE_826629-5) 
+      (fields 
+        (field 
+          (name Centerline_Pitch) "2.54 mm[.1 in]") 
+        (field 
+          (name Comment) 826629-5) 
+        (field 
+          (name EU_RoHS_Compliance) Compliant) 
+        (field 
+          (name Number_of_Positions) 5) 
+        (field 
+          (name Product_Type) Connector)) 
+      (libsource 
+        (lib 826629-5) 
+        (part 826629-5) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 62EF1199)) 
+    (comp 
+      (ref C5) 
+      (value 0.1uf) 
+      (footprint Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part C_Small) 
+        (description "Unpolarized capacitor, small symbol")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 64441CB6)) 
+    (comp 
+      (ref C6) 
+      (value 1uf) 
+      (footprint RDER71H105K2M1H03A:CAP_RDER71H105K2M1H03A) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part C_Small) 
+        (description "Unpolarized capacitor, small symbol")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 64483141)) 
+    (comp 
+      (ref U1) 
+      (value STM32L072KZT6) 
+      (footprint STM32L072KZT6:QFP80P900X900X160-32N) 
+      (datasheet https://www.arrow.com/en/products/stm32l072kzt6/stmicroelectronics) 
+      (fields 
+        (field 
+          (name Description) "ARM Microcontrollers - MCU Ultra-low-power ARM Cortex-M0+ MCU with 192-Kbytes Flash, 32 MHz CPU, USB") 
+        (field 
+          (name Height) 1.6) 
+        (field 
+          (name Manufacturer_Name) STMicroelectronics) 
+        (field 
+          (name Manufacturer_Part_Number) STM32L072KZT6) 
+        (field 
+          (name "Mouser Part Number") 511-STM32L072KZT6) 
+        (field 
+          (name "Mouser Price/Stock") https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STM32L072KZT6?qs=mwoc%252BQmZlGJ4eN3sEity4A%3D%3D)) 
+      (libsource 
+        (lib STM32L072KZT6) 
+        (part STM32L072KZT6) 
+        (description "ARM Microcontrollers - MCU Ultra-low-power ARM Cortex-M0+ MCU with 192-Kbytes Flash, 32 MHz CPU, USB")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 64614A11)) 
+    (comp 
+      (ref LED1) 
+      (value LED) 
+      (footprint LED_THT:LED_D5.0mm_Clear) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part LED) 
+        (description "Light emitting diode")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 646A674A)) 
+    (comp 
+      (ref R6) 
+      (value R) 
+      (footprint Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 646A9E04)) 
+    (comp 
+      (ref D_3_3) 
+      (value D) 
+      (footprint 1N4148:DIOAD829W49L456D191) 
+      (libsource 
+        (lib keyboard_parts) 
+        (part D) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 620E3ACC))) 
+  (libparts 
+    (libpart 
+      (lib 826629-5) 
+      (part 826629-5) 
+      (fields 
+        (field 
+          (name Reference) J) 
+        (field 
+          (name Value) 826629-5) 
+        (field 
+          (name Footprint) TE_826629-5) 
+        (field 
+          (name Product_Type) Connector) 
+        (field 
+          (name Comment) 826629-5) 
+        (field 
+          (name EU_RoHS_Compliance) Compliant) 
+        (field 
+          (name Centerline_Pitch) "2.54 mm[.1 in]") 
+        (field 
+          (name Number_of_Positions) 5)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name 1) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name 2) 
+          (type passive)) 
+        (pin 
+          (num 3) 
+          (name 3) 
+          (type passive)) 
+        (pin 
+          (num 4) 
+          (name 4) 
+          (type passive)) 
+        (pin 
+          (num 5) 
+          (name 5) 
+          (type passive)))) 
+    (libpart 
+      (lib Connector_Generic) 
+      (part Conn_01x03) 
+      (description "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)") 
+      (docs ~) 
+      (footprints 
+        (fp Connector*:*_1x??_*)) 
+      (fields 
+        (field 
+          (name Reference) J) 
+        (field 
+          (name Value) Conn_01x03)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name Pin_1) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name Pin_2) 
+          (type passive)) 
+        (pin 
+          (num 3) 
+          (name Pin_3) 
+          (type passive)))) 
+    (libpart 
+      (lib Device) 
+      (part C_Small) 
+      (description "Unpolarized capacitor, small symbol") 
+      (docs ~) 
+      (footprints 
+        (fp C_*)) 
+      (fields 
+        (field 
+          (name Reference) C) 
+        (field 
+          (name Value) C_Small)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name ~) 
+          (type passive)))) 
+    (libpart 
+      (lib Device) 
+      (part LED) 
+      (description "Light emitting diode") 
+      (docs ~) 
+      (footprints 
+        (fp LED*) 
+        (fp LED_SMD:*) 
+        (fp LED_THT:*)) 
+      (fields 
+        (field 
+          (name Reference) D) 
+        (field 
+          (name Value) LED)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name K) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name A) 
+          (type passive)))) 
+    (libpart 
+      (lib Device) 
+      (part R) 
+      (description Resistor) 
+      (docs ~) 
+      (footprints 
+        (fp R_*)) 
+      (fields 
+        (field 
+          (name Reference) R) 
+        (field 
+          (name Value) R)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name ~) 
+          (type passive)))) 
+    (libpart 
+      (lib OS102011MS2QN1) 
+      (part OS102011MS2QN1) 
+      (fields 
+        (field 
+          (name Reference) S) 
+        (field 
+          (name Value) OS102011MS2QN1) 
+        (field 
+          (name Footprint) SW_OS102011MS2QN1) 
+        (field 
+          (name MANUFACTURER) C&K) 
+        (field 
+          (name STANDARD) "MANUFACTURER RECOMMENDATIONS")) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name 1) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name 2) 
+          (type passive)) 
+        (pin 
+          (num 3) 
+          (name 3) 
+          (type passive)))) 
+    (libpart 
+      (lib Regulator_Linear) 
+      (part LM1117-1.8) 
+      (aliases 
+        (alias LM1117-2.5) 
+        (alias LM1117-3.3) 
+        (alias LM1117-5.0) 
+        (alias TLV1117-15) 
+        (alias TLV1117-18) 
+        (alias TLV1117-25) 
+        (alias TLV1117-33) 
+        (alias TLV1117-50)) 
+      (description "800mA Low-Dropout Linear Regulator, 1.8V fixed output, TO-220/TO-252/TO-263/SOT-223") 
+      (docs http://www.ti.com/lit/ds/symlink/lm1117.pdf) 
+      (footprints 
+        (fp SOT?223*) 
+        (fp TO?263*) 
+        (fp TO?252*) 
+        (fp TO?220*)) 
+      (fields 
+        (field 
+          (name Reference) U) 
+        (field 
+          (name Value) LM1117-1.8)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name GND) 
+          (type power_in)) 
+        (pin 
+          (num 2) 
+          (name VO) 
+          (type power_out)) 
+        (pin 
+          (num 3) 
+          (name VI) 
+          (type power_in)))) 
+    (libpart 
+      (lib STM32L072KZT6) 
+      (part STM32L072KZT6) 
+      (description "ARM Microcontrollers - MCU Ultra-low-power ARM Cortex-M0+ MCU with 192-Kbytes Flash, 32 MHz CPU, USB") 
+      (docs https://www.arrow.com/en/products/stm32l072kzt6/stmicroelectronics) 
+      (fields 
+        (field 
+          (name Reference) IC) 
+        (field 
+          (name Value) STM32L072KZT6) 
+        (field 
+          (name Footprint) QFP80P900X900X160-32N) 
+        (field 
+          (name Datasheet) https://www.arrow.com/en/products/stm32l072kzt6/stmicroelectronics) 
+        (field 
+          (name Description) "ARM Microcontrollers - MCU Ultra-low-power ARM Cortex-M0+ MCU with 192-Kbytes Flash, 32 MHz CPU, USB") 
+        (field 
+          (name Height) 1.6) 
+        (field 
+          (name "Mouser Part Number") 511-STM32L072KZT6) 
+        (field 
+          (name "Mouser Price/Stock") https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STM32L072KZT6?qs=mwoc%252BQmZlGJ4eN3sEity4A%3D%3D) 
+        (field 
+          (name Manufacturer_Name) STMicroelectronics) 
+        (field 
+          (name Manufacturer_Part_Number) STM32L072KZT6)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name VDD_1) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name "PC14-_OSC32_IN_(PC14)") 
+          (type passive)) 
+        (pin 
+          (num 3) 
+          (name "PC15-_OSC32_OUT_(PC15)") 
+          (type passive)) 
+        (pin 
+          (num 4) 
+          (name NRST) 
+          (type passive)) 
+        (pin 
+          (num 5) 
+          (name VDDA) 
+          (type passive)) 
+        (pin 
+          (num 6) 
+          (name PA0) 
+          (type passive)) 
+        (pin 
+          (num 7) 
+          (name PA1) 
+          (type passive)) 
+        (pin 
+          (num 8) 
+          (name PA2) 
+          (type passive)) 
+        (pin 
+          (num 9) 
+          (name PA3) 
+          (type passive)) 
+        (pin 
+          (num 10) 
+          (name PA4) 
+          (type passive)) 
+        (pin 
+          (num 11) 
+          (name PA5) 
+          (type passive)) 
+        (pin 
+          (num 12) 
+          (name PA6) 
+          (type passive)) 
+        (pin 
+          (num 13) 
+          (name PA7) 
+          (type passive)) 
+        (pin 
+          (num 14) 
+          (name PB0) 
+          (type passive)) 
+        (pin 
+          (num 15) 
+          (name PB1) 
+          (type passive)) 
+        (pin 
+          (num 16) 
+          (name VSS_1) 
+          (type passive)) 
+        (pin 
+          (num 17) 
+          (name VDD_2) 
+          (type passive)) 
+        (pin 
+          (num 18) 
+          (name PA8) 
+          (type passive)) 
+        (pin 
+          (num 19) 
+          (name PA9) 
+          (type passive)) 
+        (pin 
+          (num 20) 
+          (name PA10) 
+          (type passive)) 
+        (pin 
+          (num 21) 
+          (name PA11) 
+          (type passive)) 
+        (pin 
+          (num 22) 
+          (name PA12) 
+          (type passive)) 
+        (pin 
+          (num 23) 
+          (name PA13) 
+          (type passive)) 
+        (pin 
+          (num 24) 
+          (name PA14) 
+          (type passive)) 
+        (pin 
+          (num 25) 
+          (name PA15) 
+          (type passive)) 
+        (pin 
+          (num 26) 
+          (name PB3) 
+          (type passive)) 
+        (pin 
+          (num 27) 
+          (name PB4) 
+          (type passive)) 
+        (pin 
+          (num 28) 
+          (name PB5) 
+          (type passive)) 
+        (pin 
+          (num 29) 
+          (name PB6) 
+          (type passive)) 
+        (pin 
+          (num 30) 
+          (name PB7) 
+          (type passive)) 
+        (pin 
+          (num 31) 
+          (name BOOT0) 
+          (type passive)) 
+        (pin 
+          (num 32) 
+          (name VSS_2) 
+          (type passive)))) 
+    (libpart 
+      (lib USB4085-GF-A_REVA4) 
+      (part USB4085-GF-A_REVA4) 
+      (fields 
+        (field 
+          (name Reference) J) 
+        (field 
+          (name Value) USB4085-GF-A_REVA4) 
+        (field 
+          (name Footprint) GCT_USB4085-GF-A_REVA4) 
+        (field 
+          (name STANDARD) "Manufacturer Recommendations") 
+        (field 
+          (name MAXIMUM_PACKAGE_HEIGHT) 3.46mm) 
+        (field 
+          (name PARTREV) A4) 
+        (field 
+          (name MANUFACTURER) "Global Connector Technology")) 
+      (pins 
+        (pin 
+          (num A1) 
+          (name GND) 
+          (type passive)) 
+        (pin 
+          (num A4) 
+          (name VBUS) 
+          (type power_in)) 
+        (pin 
+          (num A5) 
+          (name CC1) 
+          (type BiDi)) 
+        (pin 
+          (num A6) 
+          (name DP1) 
+          (type BiDi)) 
+        (pin 
+          (num A7) 
+          (name DN1) 
+          (type BiDi)) 
+        (pin 
+          (num A8) 
+          (name SBU1) 
+          (type BiDi)) 
+        (pin 
+          (num A9) 
+          (name VBUS) 
+          (type power_in)) 
+        (pin 
+          (num A12) 
+          (name GND) 
+          (type passive)) 
+        (pin 
+          (num B1) 
+          (name GND) 
+          (type passive)) 
+        (pin 
+          (num B4) 
+          (name VBUS) 
+          (type power_in)) 
+        (pin 
+          (num B5) 
+          (name CC2) 
+          (type BiDi)) 
+        (pin 
+          (num B6) 
+          (name DP2) 
+          (type BiDi)) 
+        (pin 
+          (num B7) 
+          (name DN2) 
+          (type BiDi)) 
+        (pin 
+          (num B8) 
+          (name SBU2) 
+          (type BiDi)) 
+        (pin 
+          (num B9) 
+          (name VBUS) 
+          (type power_in)) 
+        (pin 
+          (num B12) 
+          (name GND) 
+          (type passive)) 
+        (pin 
+          (num P1) 
+          (name SHELL) 
+          (type passive)) 
+        (pin 
+          (num P2) 
+          (name SHELL) 
+          (type passive)) 
+        (pin 
+          (num P3) 
+          (name SHELL) 
+          (type passive)) 
+        (pin 
+          (num P4) 
+          (name SHELL) 
+          (type passive)))) 
+    (libpart 
+      (lib keyboard_parts) 
+      (part D) 
+      (fields 
+        (field 
+          (name Reference) D) 
+        (field 
+          (name Value) D)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name ~) 
+          (type passive)))) 
+    (libpart 
+      (lib keyboard_parts) 
+      (part KEYSW) 
+      (fields 
+        (field 
+          (name Reference) K?) 
+        (field 
+          (name Value) KEYSW)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name ~) 
+          (type passive))))) 
+  (libraries 
+    (library 
+      (logical 826629-5) 
+      (uri D:/Projects/Uniform-Keyboard/PCB/lib/826629-5/826629-5.lib)) 
+    (library 
+      (logical Connector_Generic) 
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Connector_Generic.lib")) 
+    (library 
+      (logical Device) 
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Device.lib")) 
+    (library 
+      (logical OS102011MS2QN1) 
+      (uri D:/Projects/Uniform-Keyboard/PCB/lib/OS102011MS2QN1/OS102011MS2QN1.lib)) 
+    (library 
+      (logical Regulator_Linear) 
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Regulator_Linear.lib")) 
+    (library 
+      (logical STM32L072KZT6) 
+      (uri D:/Projects/Uniform-Keyboard/PCB/lib/STM32L072KZT6/STM32L072KZT6.lib)) 
+    (library 
+      (logical USB4085-GF-A_REVA4) 
+      (uri D:/Projects/Uniform-Keyboard/PCB/lib/USB4085-GF-A_REVA4/USB4085-GF-A_REVA4.lib)) 
+    (library 
+      (logical keyboard_parts) 
+      (uri D:/Projects/Uniform-Keyboard/PCB/lib/kicad_lib_tmk-master/keyboard_parts.lib))) 
+  (nets 
+    (net 
+      (code 1) 
+      (name C13) 
+      (node 
+        (ref K_3_13) 
+        (pin 1)) 
+      (node 
+        (ref U1) 
+        (pin 30)) 
+      (node 
+        (ref K_4_13) 
+        (pin 1)) 
+      (node 
+        (ref K_2_13) 
+        (pin 1)) 
+      (node 
+        (ref K_1_13) 
+        (pin 1)) 
+      (node 
+        (ref K_0_13) 
+        (pin 1))) 
+    (net 
+      (code 2) 
+      (name C12) 
+      (node 
+        (ref K_4_12) 
+        (pin 1)) 
+      (node 
+        (ref U1) 
+        (pin 29)) 
+      (node 
+        (ref K_1_12) 
+        (pin 1)) 
+      (node 
+        (ref K_2_12) 
+        (pin 1)) 
+      (node 
+        (ref K_0_12) 
+        (pin 1)) 
+      (node 
+        (ref K_3_12) 
+        (pin 1))) 
+    (net 
+      (code 3) 
+      (name C9) 
+      (node 
+        (ref K_1_9) 
+        (pin 1)) 
+      (node 
+        (ref U1) 
+        (pin 26)) 
+      (node 
+        (ref K_2_9) 
+        (pin 1)) 
+      (node 
+        (ref K_0_9) 
+        (pin 1)) 
+      (node 
+        (ref K_4_9) 
+        (pin 1)) 
+      (node 
+        (ref K_3_9) 
+        (pin 1))) 
+    (net 
+      (code 4) 
+      (name C10) 
+      (node 
+        (ref U1) 
+        (pin 27)) 
+      (node 
+        (ref K_2_10) 
+        (pin 1)) 
+      (node 
+        (ref K_0_10) 
+        (pin 1)) 
+      (node 
+        (ref K_1_10) 
+        (pin 1)) 
+      (node 
+        (ref K_3_10) 
+        (pin 1)) 
+      (node 
+        (ref K_4_10) 
+        (pin 1))) 
+    (net 
+      (code 5) 
+      (name C11) 
+      (node 
+        (ref K_0_11) 
+        (pin 1)) 
+      (node 
+        (ref U1) 
+        (pin 28)) 
+      (node 
+        (ref K_3_11) 
+        (pin 1)) 
+      (node 
+        (ref K_4_11) 
+        (pin 1)) 
+      (node 
+        (ref K_2_11) 
+        (pin 1)) 
+      (node 
+        (ref K_1_11) 
+        (pin 1))) 
+    (net 
+      (code 6) 
+      (name GND) 
+      (node 
+        (ref S2) 
+        (pin 2)) 
+      (node 
+        (ref C5) 
+        (pin 2)) 
+      (node 
+        (ref R2) 
+        (pin 2)) 
+      (node 
+        (ref CON1) 
+        (pin 5)) 
+      (node 
+        (ref U1) 
+        (pin 32)) 
+      (node 
+        (ref U1) 
+        (pin 16)) 
+      (node 
+        (ref C1) 
+        (pin 2)) 
+      (node 
+        (ref LED1) 
+        (pin 1)) 
+      (node 
+        (ref C6) 
+        (pin 2)) 
+      (node 
+        (ref R1) 
+        (pin 1)) 
+      (node 
+        (ref R3) 
+        (pin 1)) 
+      (node 
+        (ref USBC1) 
+        (pin P4)) 
+      (node 
+        (ref USBC1) 
+        (pin P2)) 
+      (node 
+        (ref USBC1) 
+        (pin P1)) 
+      (node 
+        (ref USBC1) 
+        (pin B12)) 
+      (node 
+        (ref USBC1) 
+        (pin B1)) 
+      (node 
+        (ref USBC1) 
+        (pin A12)) 
+      (node 
+        (ref USBC1) 
+        (pin A1)) 
+      (node 
+        (ref USBC1) 
+        (pin P3)) 
+      (node 
+        (ref CON2) 
+        (pin 3)) 
+      (node 
+        (ref VOLT_REG1) 
+        (pin 1)) 
+      (node 
+        (ref C2) 
+        (pin 2)) 
+      (node 
+        (ref C4) 
+        (pin 2)) 
+      (node 
+        (ref C3) 
+        (pin 2))) 
+    (net 
+      (code 7) 
+      (name +5V) 
+      (node 
+        (ref USBC1) 
+        (pin A4)) 
+      (node 
+        (ref CON2) 
+        (pin 1)) 
+      (node 
+        (ref VOLT_REG1) 
+        (pin 3)) 
+      (node 
+        (ref C1) 
+        (pin 1)) 
+      (node 
+        (ref USBC1) 
+        (pin B9)) 
+      (node 
+        (ref USBC1) 
+        (pin B4)) 
+      (node 
+        (ref USBC1) 
+        (pin A9))) 
+    (net 
+      (code 8) 
+      (name C1) 
+      (node 
+        (ref K_3_1) 
+        (pin 1)) 
+      (node 
+        (ref U1) 
+        (pin 12)) 
+      (node 
+        (ref K_0_1) 
+        (pin 1)) 
+      (node 
+        (ref K_1_1) 
+        (pin 1)) 
+      (node 
+        (ref K_4_1) 
+        (pin 1)) 
+      (node 
+        (ref K_2_1) 
+        (pin 1))) 
+    (net 
+      (code 9) 
+      (name C0) 
+      (node 
+        (ref K_3_0) 
+        (pin 1)) 
+      (node 
+        (ref U1) 
+        (pin 11)) 
+      (node 
+        (ref K_1_0) 
+        (pin 1)) 
+      (node 
+        (ref K_0_0) 
+        (pin 1)) 
+      (node 
+        (ref K_4_0) 
+        (pin 1)) 
+      (node 
+        (ref K_2_0) 
+        (pin 1))) 
+    (net 
+      (code 10) 
+      (name C2) 
+      (node 
+        (ref K_1_2) 
+        (pin 1)) 
+      (node 
+        (ref K_4_2) 
+        (pin 1)) 
+      (node 
+        (ref K_2_2) 
+        (pin 1)) 
+      (node 
+        (ref K_3_2) 
+        (pin 1)) 
+      (node 
+        (ref K_0_2) 
+        (pin 1)) 
+      (node 
+        (ref U1) 
+        (pin 13))) 
+    (net 
+      (code 11) 
+      (name R4) 
+      (node 
+        (ref D_4_11) 
+        (pin 1)) 
+      (node 
+        (ref D_4_5) 
+        (pin 1)) 
+      (node 
+        (ref U1) 
+        (pin 10)) 
+      (node 
+        (ref D_4_12) 
+        (pin 1)) 
+      (node 
+        (ref D_4_8) 
+        (pin 1)) 
+      (node 
+        (ref D_4_1) 
+        (pin 1)) 
+      (node 
+        (ref D_4_13) 
+        (pin 1)) 
+      (node 
+        (ref D_4_10) 
+        (pin 1)) 
+      (node 
+        (ref D_4_9) 
+        (pin 1)) 
+      (node 
+        (ref D_4_0) 
+        (pin 1)) 
+      (node 
+        (ref D_4_4) 
+        (pin 1)) 
+      (node 
+        (ref D_4_6) 
+        (pin 1)) 
+      (node 
+        (ref D_4_2) 
+        (pin 1))) 
+    (net 
+      (code 12) 
+      (name C7) 
+      (node 
+        (ref K_0_7) 
+        (pin 1)) 
+      (node 
+        (ref U1) 
+        (pin 20)) 
+      (node 
+        (ref K_1_7) 
+        (pin 1)) 
+      (node 
+        (ref K_2_7) 
+        (pin 1)) 
+      (node 
+        (ref K_3_7) 
+        (pin 1))) 
+    (net 
+      (code 13) 
+      (name C6) 
+      (node 
+        (ref K_1_6) 
+        (pin 1)) 
+      (node 
+        (ref K_0_6) 
+        (pin 1)) 
+      (node 
+        (ref K_4_6) 
+        (pin 1)) 
+      (node 
+        (ref K_2_6) 
+        (pin 1)) 
+      (node 
+        (ref U1) 
+        (pin 19)) 
+      (node 
+        (ref K_3_6) 
+        (pin 1))) 
+    (net 
+      (code 14) 
+      (name C8) 
+      (node 
+        (ref K_0_8) 
+        (pin 1)) 
+      (node 
+        (ref K_3_8) 
+        (pin 1)) 
+      (node 
+        (ref U1) 
+        (pin 25)) 
+      (node 
+        (ref K_2_8) 
+        (pin 1)) 
+      (node 
+        (ref K_1_8) 
+        (pin 1)) 
+      (node 
+        (ref K_4_8) 
+        (pin 1))) 
+    (net 
+      (code 15) 
+      (name C4) 
+      (node 
+        (ref U1) 
+        (pin 15)) 
+      (node 
+        (ref K_3_4) 
+        (pin 1)) 
+      (node 
+        (ref K_4_4) 
+        (pin 1)) 
+      (node 
+        (ref K_1_4) 
+        (pin 1)) 
+      (node 
+        (ref K_0_4) 
+        (pin 1)) 
+      (node 
+        (ref K_2_4) 
+        (pin 1))) 
+    (net 
+      (code 16) 
+      (name C3) 
+      (node 
+        (ref K_3_3) 
+        (pin 1)) 
+      (node 
+        (ref K_1_3) 
+        (pin 1)) 
+      (node 
+        (ref K_0_3) 
+        (pin 1)) 
+      (node 
+        (ref K_2_3) 
+        (pin 1)) 
+      (node 
+        (ref U1) 
+        (pin 14))) 
+    (net 
+      (code 17) 
+      (name C5) 
+      (node 
+        (ref K_4_5) 
+        (pin 1)) 
+      (node 
+        (ref K_1_5) 
+        (pin 1)) 
+      (node 
+        (ref K_0_5) 
+        (pin 1)) 
+      (node 
+        (ref K_3_5) 
+        (pin 1)) 
+      (node 
+        (ref K_2_5) 
+        (pin 1)) 
+      (node 
+        (ref U1) 
+        (pin 18))) 
+    (net 
+      (code 18) 
+      (name LED_DATA) 
+      (node 
+        (ref R5) 
+        (pin 2)) 
+      (node 
+        (ref U1) 
+        (pin 2))) 
+    (net 
+      (code 19) 
+      (name SWDIO) 
+      (node 
+        (ref CON1) 
+        (pin 2)) 
+      (node 
+        (ref U1) 
+        (pin 23))) 
+    (net 
+      (code 20) 
+      (name D_P) 
+      (node 
+        (ref U1) 
+        (pin 22)) 
+      (node 
+        (ref USBC1) 
+        (pin B6)) 
+      (node 
+        (ref USBC1) 
+        (pin A6))) 
+    (net 
+      (code 21) 
+      (name D_N) 
+      (node 
+        (ref USBC1) 
+        (pin B7)) 
+      (node 
+        (ref USBC1) 
+        (pin A7)) 
+      (node 
+        (ref U1) 
+        (pin 21))) 
+    (net 
+      (code 22) 
+      (name BOOT) 
+      (node 
+        (ref S1) 
+        (pin 1)) 
+      (node 
+        (ref R2) 
+        (pin 1)) 
+      (node 
+        (ref U1) 
+        (pin 31))) 
+    (net 
+      (code 23) 
+      (name RESET) 
+      (node 
+        (ref CON1) 
+        (pin 4)) 
+      (node 
+        (ref S2) 
+        (pin 1)) 
+      (node 
+        (ref R4) 
+        (pin 2)) 
+      (node 
+        (ref U1) 
+        (pin 4))) 
+    (net 
+      (code 24) 
+      (name SWCLK) 
+      (node 
+        (ref U1) 
+        (pin 24)) 
+      (node 
+        (ref CON1) 
+        (pin 3))) 
+    (net 
+      (code 25) 
+      (name "Net-(S2-Pad3)") 
+      (node 
+        (ref S2) 
+        (pin 3))) 
+    (net 
+      (code 26) 
+      (name "Net-(S1-Pad3)") 
+      (node 
+        (ref S1) 
+        (pin 3))) 
+    (net 
+      (code 27) 
+      (name "Net-(D_3_3-Pad2)") 
+      (node 
+        (ref K_3_3) 
+        (pin 2)) 
+      (node 
+        (ref D_3_3) 
+        (pin 2))) 
+    (net 
+      (code 28) 
+      (name STATUS_LED_DATA) 
+      (node 
+        (ref R6) 
+        (pin 1)) 
+      (node 
+        (ref U1) 
+        (pin 3))) 
+    (net 
+      (code 29) 
+      (name "Net-(LED1-Pad2)") 
+      (node 
+        (ref R6) 
+        (pin 2)) 
+      (node 
+        (ref LED1) 
+        (pin 2))) 
+    (net 
+      (code 30) 
+      (name +3V3) 
+      (node 
+        (ref VOLT_REG1) 
+        (pin 2)) 
+      (node 
+        (ref U1) 
+        (pin 17)) 
+      (node 
+        (ref S1) 
+        (pin 2)) 
+      (node 
+        (ref C6) 
+        (pin 1)) 
+      (node 
+        (ref C5) 
+        (pin 1)) 
+      (node 
+        (ref U1) 
+        (pin 5)) 
+      (node 
+        (ref U1) 
+        (pin 1)) 
+      (node 
+        (ref R4) 
+        (pin 1)) 
+      (node 
+        (ref CON1) 
+        (pin 1)) 
+      (node 
+        (ref C4) 
+        (pin 1)) 
+      (node 
+        (ref C3) 
+        (pin 1)) 
+      (node 
+        (ref C2) 
+        (pin 1))) 
+    (net 
+      (code 31) 
+      (name "Net-(CON2-Pad2)") 
+      (node 
+        (ref R5) 
+        (pin 1)) 
+      (node 
+        (ref CON2) 
+        (pin 2))) 
+    (net 
+      (code 32) 
+      (name "Net-(R1-Pad2)") 
+      (node 
+        (ref USBC1) 
+        (pin B5)) 
+      (node 
+        (ref R1) 
+        (pin 2))) 
+    (net 
+      (code 33) 
+      (name "Net-(R3-Pad2)") 
+      (node 
+        (ref USBC1) 
+        (pin A5)) 
+      (node 
+        (ref R3) 
+        (pin 2))) 
+    (net 
+      (code 34) 
+      (name "Net-(USBC1-PadB8)") 
+      (node 
+        (ref USBC1) 
+        (pin B8))) 
+    (net 
+      (code 35) 
+      (name "Net-(USBC1-PadA8)") 
+      (node 
+        (ref USBC1) 
+        (pin A8))) 
+    (net 
+      (code 36) 
+      (name "Net-(D_2_4-Pad2)") 
+      (node 
+        (ref D_2_4) 
+        (pin 2)) 
+      (node 
+        (ref K_2_4) 
+        (pin 2))) 
+    (net 
+      (code 37) 
+      (name "Net-(D_2_5-Pad2)") 
+      (node 
+        (ref K_2_5) 
+        (pin 2)) 
+      (node 
+        (ref D_2_5) 
+        (pin 2))) 
+    (net 
+      (code 38) 
+      (name "Net-(D_2_6-Pad2)") 
+      (node 
+        (ref D_2_6) 
+        (pin 2)) 
+      (node 
+        (ref K_2_6) 
+        (pin 2))) 
+    (net 
+      (code 39) 
+      (name "Net-(D_2_2-Pad2)") 
+      (node 
+        (ref K_2_2) 
+        (pin 2)) 
+      (node 
+        (ref D_2_2) 
+        (pin 2))) 
+    (net 
+      (code 40) 
+      (name "Net-(D_2_3-Pad2)") 
+      (node 
+        (ref D_2_3) 
+        (pin 2)) 
+      (node 
+        (ref K_2_3) 
+        (pin 2))) 
+    (net 
+      (code 41) 
+      (name "Net-(D_2_9-Pad2)") 
+      (node 
+        (ref D_2_9) 
+        (pin 2)) 
+      (node 
+        (ref K_2_9) 
+        (pin 2))) 
+    (net 
+      (code 42) 
+      (name "Net-(D_2_7-Pad2)") 
+      (node 
+        (ref K_2_7) 
+        (pin 2)) 
+      (node 
+        (ref D_2_7) 
+        (pin 2))) 
+    (net 
+      (code 43) 
+      (name "Net-(D_1_10-Pad2)") 
+      (node 
+        (ref D_1_10) 
+        (pin 2)) 
+      (node 
+        (ref K_1_10) 
+        (pin 2))) 
+    (net 
+      (code 44) 
+      (name "Net-(D_2_0-Pad2)") 
+      (node 
+        (ref K_2_0) 
+        (pin 2)) 
+      (node 
+        (ref D_2_0) 
+        (pin 2))) 
+    (net 
+      (code 45) 
+      (name "Net-(D_1_12-Pad2)") 
+      (node 
+        (ref D_1_12) 
+        (pin 2)) 
+      (node 
+        (ref K_1_12) 
+        (pin 2))) 
+    (net 
+      (code 46) 
+      (name "Net-(D_1_11-Pad2)") 
+      (node 
+        (ref D_1_11) 
+        (pin 2)) 
+      (node 
+        (ref K_1_11) 
+        (pin 2))) 
+    (net 
+      (code 47) 
+      (name "Net-(D_2_8-Pad2)") 
+      (node 
+        (ref K_2_8) 
+        (pin 2)) 
+      (node 
+        (ref D_2_8) 
+        (pin 2))) 
+    (net 
+      (code 48) 
+      (name "Net-(D_2_1-Pad2)") 
+      (node 
+        (ref K_2_1) 
+        (pin 2)) 
+      (node 
+        (ref D_2_1) 
+        (pin 2))) 
+    (net 
+      (code 49) 
+      (name "Net-(D_3_2-Pad2)") 
+      (node 
+        (ref D_3_2) 
+        (pin 2)) 
+      (node 
+        (ref K_3_2) 
+        (pin 2))) 
+    (net 
+      (code 50) 
+      (name "Net-(D_3_4-Pad2)") 
+      (node 
+        (ref K_3_4) 
+        (pin 2)) 
+      (node 
+        (ref D_3_4) 
+        (pin 2))) 
+    (net 
+      (code 51) 
+      (name "Net-(D_3_5-Pad2)") 
+      (node 
+        (ref K_3_5) 
+        (pin 2)) 
+      (node 
+        (ref D_3_5) 
+        (pin 2))) 
+    (net 
+      (code 52) 
+      (name "Net-(D_3_6-Pad2)") 
+      (node 
+        (ref K_3_6) 
+        (pin 2)) 
+      (node 
+        (ref D_3_6) 
+        (pin 2))) 
+    (net 
+      (code 53) 
+      (name "Net-(D_3_7-Pad2)") 
+      (node 
+        (ref D_3_7) 
+        (pin 2)) 
+      (node 
+        (ref K_3_7) 
+        (pin 2))) 
+    (net 
+      (code 54) 
+      (name "Net-(D_2_10-Pad2)") 
+      (node 
+        (ref D_2_10) 
+        (pin 2)) 
+      (node 
+        (ref K_2_10) 
+        (pin 2))) 
+    (net 
+      (code 55) 
+      (name "Net-(D_2_11-Pad2)") 
+      (node 
+        (ref D_2_11) 
+        (pin 2)) 
+      (node 
+        (ref K_2_11) 
+        (pin 2))) 
+    (net 
+      (code 56) 
+      (name "Net-(D_3_0-Pad2)") 
+      (node 
+        (ref K_3_0) 
+        (pin 2)) 
+      (node 
+        (ref D_3_0) 
+        (pin 2))) 
+    (net 
+      (code 57) 
+      (name "Net-(D_3_1-Pad2)") 
+      (node 
+        (ref D_3_1) 
+        (pin 2)) 
+      (node 
+        (ref K_3_1) 
+        (pin 2))) 
+    (net 
+      (code 58) 
+      (name "Net-(D_2_12-Pad2)") 
+      (node 
+        (ref K_2_12) 
+        (pin 2)) 
+      (node 
+        (ref D_2_12) 
+        (pin 2))) 
+    (net 
+      (code 59) 
+      (name "Net-(D_0_7-Pad2)") 
+      (node 
+        (ref K_0_7) 
+        (pin 2)) 
+      (node 
+        (ref D_0_7) 
+        (pin 2))) 
+    (net 
+      (code 60) 
+      (name "Net-(D_0_6-Pad2)") 
+      (node 
+        (ref K_0_6) 
+        (pin 2)) 
+      (node 
+        (ref D_0_6) 
+        (pin 2))) 
+    (net 
+      (code 61) 
+      (name "Net-(D_0_9-Pad2)") 
+      (node 
+        (ref D_0_9) 
+        (pin 2)) 
+      (node 
+        (ref K_0_9) 
+        (pin 2))) 
+    (net 
+      (code 62) 
+      (name "Net-(D_0_10-Pad2)") 
+      (node 
+        (ref K_0_10) 
+        (pin 2)) 
+      (node 
+        (ref D_0_10) 
+        (pin 2))) 
+    (net 
+      (code 63) 
+      (name "Net-(D_0_11-Pad2)") 
+      (node 
+        (ref K_0_11) 
+        (pin 2)) 
+      (node 
+        (ref D_0_11) 
+        (pin 2))) 
+    (net 
+      (code 64) 
+      (name "Net-(D_0_4-Pad2)") 
+      (node 
+        (ref K_0_4) 
+        (pin 2)) 
+      (node 
+        (ref D_0_4) 
+        (pin 2))) 
+    (net 
+      (code 65) 
+      (name "Net-(D_0_8-Pad2)") 
+      (node 
+        (ref D_0_8) 
+        (pin 2)) 
+      (node 
+        (ref K_0_8) 
+        (pin 2))) 
+    (net 
+      (code 66) 
+      (name "Net-(D_0_1-Pad2)") 
+      (node 
+        (ref K_0_1) 
+        (pin 2)) 
+      (node 
+        (ref D_0_1) 
+        (pin 2))) 
+    (net 
+      (code 67) 
+      (name "Net-(D_0_3-Pad2)") 
+      (node 
+        (ref D_0_3) 
+        (pin 2)) 
+      (node 
+        (ref K_0_3) 
+        (pin 2))) 
+    (net 
+      (code 68) 
+      (name "Net-(D_0_0-Pad2)") 
+      (node 
+        (ref K_0_0) 
+        (pin 2)) 
+      (node 
+        (ref D_0_0) 
+        (pin 2))) 
+    (net 
+      (code 69) 
+      (name "Net-(D_0_5-Pad2)") 
+      (node 
+        (ref K_0_5) 
+        (pin 2)) 
+      (node 
+        (ref D_0_5) 
+        (pin 2))) 
+    (net 
+      (code 70) 
+      (name "Net-(D_0_2-Pad2)") 
+      (node 
+        (ref D_0_2) 
+        (pin 2)) 
+      (node 
+        (ref K_0_2) 
+        (pin 2))) 
+    (net 
+      (code 71) 
+      (name "Net-(D_1_6-Pad2)") 
+      (node 
+        (ref K_1_6) 
+        (pin 2)) 
+      (node 
+        (ref D_1_6) 
+        (pin 2))) 
+    (net 
+      (code 72) 
+      (name "Net-(D_1_7-Pad2)") 
+      (node 
+        (ref K_1_7) 
+        (pin 2)) 
+      (node 
+        (ref D_1_7) 
+        (pin 2))) 
+    (net 
+      (code 73) 
+      (name "Net-(D_1_4-Pad2)") 
+      (node 
+        (ref K_1_4) 
+        (pin 2)) 
+      (node 
+        (ref D_1_4) 
+        (pin 2))) 
+    (net 
+      (code 74) 
+      (name "Net-(D_1_5-Pad2)") 
+      (node 
+        (ref D_1_5) 
+        (pin 2)) 
+      (node 
+        (ref K_1_5) 
+        (pin 2))) 
+    (net 
+      (code 75) 
+      (name "Net-(D_1_9-Pad2)") 
+      (node 
+        (ref D_1_9) 
+        (pin 2)) 
+      (node 
+        (ref K_1_9) 
+        (pin 2))) 
+    (net 
+      (code 76) 
+      (name "Net-(D_1_8-Pad2)") 
+      (node 
+        (ref D_1_8) 
+        (pin 2)) 
+      (node 
+        (ref K_1_8) 
+        (pin 2))) 
+    (net 
+      (code 77) 
+      (name "Net-(D_1_0-Pad2)") 
+      (node 
+        (ref D_1_0) 
+        (pin 2)) 
+      (node 
+        (ref K_1_0) 
+        (pin 2))) 
+    (net 
+      (code 78) 
+      (name "Net-(D_1_1-Pad2)") 
+      (node 
+        (ref K_1_1) 
+        (pin 2)) 
+      (node 
+        (ref D_1_1) 
+        (pin 2))) 
+    (net 
+      (code 79) 
+      (name "Net-(D_0_12-Pad2)") 
+      (node 
+        (ref D_0_12) 
+        (pin 2)) 
+      (node 
+        (ref K_0_12) 
+        (pin 2))) 
+    (net 
+      (code 80) 
+      (name "Net-(D_1_2-Pad2)") 
+      (node 
+        (ref D_1_2) 
+        (pin 2)) 
+      (node 
+        (ref K_1_2) 
+        (pin 2))) 
+    (net 
+      (code 81) 
+      (name "Net-(D_1_3-Pad2)") 
+      (node 
+        (ref D_1_3) 
+        (pin 2)) 
+      (node 
+        (ref K_1_3) 
+        (pin 2))) 
+    (net 
+      (code 82) 
+      (name "Net-(D_3_8-Pad2)") 
+      (node 
+        (ref K_3_8) 
+        (pin 2)) 
+      (node 
+        (ref D_3_8) 
+        (pin 2))) 
+    (net 
+      (code 83) 
+      (name R1) 
+      (node 
+        (ref D_1_3) 
+        (pin 1)) 
+      (node 
+        (ref D_1_5) 
+        (pin 1)) 
+      (node 
+        (ref D_1_4) 
+        (pin 1)) 
+      (node 
+        (ref D_1_7) 
+        (pin 1)) 
+      (node 
+        (ref D_1_6) 
+        (pin 1)) 
+      (node 
+        (ref D_1_8) 
+        (pin 1)) 
+      (node 
+        (ref D_1_9) 
+        (pin 1)) 
+      (node 
+        (ref U1) 
+        (pin 7)) 
+      (node 
+        (ref D_1_12) 
+        (pin 1)) 
+      (node 
+        (ref D_1_10) 
+        (pin 1)) 
+      (node 
+        (ref D_1_2) 
+        (pin 1)) 
+      (node 
+        (ref D_1_11) 
+        (pin 1)) 
+      (node 
+        (ref D_1_13) 
+        (pin 1)) 
+      (node 
+        (ref D_1_1) 
+        (pin 1)) 
+      (node 
+        (ref D_1_0) 
+        (pin 1))) 
+    (net 
+      (code 84) 
+      (name R3) 
+      (node 
+        (ref D_3_10) 
+        (pin 1)) 
+      (node 
+        (ref D_3_11) 
+        (pin 1)) 
+      (node 
+        (ref D_3_8) 
+        (pin 1)) 
+      (node 
+        (ref D_3_9) 
+        (pin 1)) 
+      (node 
+        (ref D_3_12) 
+        (pin 1)) 
+      (node 
+        (ref D_3_13) 
+        (pin 1)) 
+      (node 
+        (ref D_3_3) 
+        (pin 1)) 
+      (node 
+        (ref U1) 
+        (pin 9)) 
+      (node 
+        (ref D_3_1) 
+        (pin 1)) 
+      (node 
+        (ref D_3_0) 
+        (pin 1)) 
+      (node 
+        (ref D_3_6) 
+        (pin 1)) 
+      (node 
+        (ref D_3_7) 
+        (pin 1)) 
+      (node 
+        (ref D_3_2) 
+        (pin 1)) 
+      (node 
+        (ref D_3_5) 
+        (pin 1)) 
+      (node 
+        (ref D_3_4) 
+        (pin 1))) 
+    (net 
+      (code 85) 
+      (name R2) 
+      (node 
+        (ref D_2_3) 
+        (pin 1)) 
+      (node 
+        (ref D_2_9) 
+        (pin 1)) 
+      (node 
+        (ref D_2_2) 
+        (pin 1)) 
+      (node 
+        (ref D_2_1) 
+        (pin 1)) 
+      (node 
+        (ref D_2_5) 
+        (pin 1)) 
+      (node 
+        (ref D_2_0) 
+        (pin 1)) 
+      (node 
+        (ref D_2_4) 
+        (pin 1)) 
+      (node 
+        (ref D_2_13) 
+        (pin 1)) 
+      (node 
+        (ref D_2_11) 
+        (pin 1)) 
+      (node 
+        (ref D_2_10) 
+        (pin 1)) 
+      (node 
+        (ref D_2_12) 
+        (pin 1)) 
+      (node 
+        (ref U1) 
+        (pin 8)) 
+      (node 
+        (ref D_2_7) 
+        (pin 1)) 
+      (node 
+        (ref D_2_6) 
+        (pin 1)) 
+      (node 
+        (ref D_2_8) 
+        (pin 1))) 
+    (net 
+      (code 86) 
+      (name "Net-(D_4_2-Pad2)") 
+      (node 
+        (ref D_4_2) 
+        (pin 2)) 
+      (node 
+        (ref K_4_2) 
+        (pin 2))) 
+    (net 
+      (code 87) 
+      (name "Net-(D_4_5-Pad2)") 
+      (node 
+        (ref D_4_5) 
+        (pin 2)) 
+      (node 
+        (ref K_4_5) 
+        (pin 2))) 
+    (net 
+      (code 88) 
+      (name "Net-(D_4_0-Pad2)") 
+      (node 
+        (ref K_4_0) 
+        (pin 2)) 
+      (node 
+        (ref D_4_0) 
+        (pin 2))) 
+    (net 
+      (code 89) 
+      (name "Net-(D_4_1-Pad2)") 
+      (node 
+        (ref D_4_1) 
+        (pin 2)) 
+      (node 
+        (ref K_4_1) 
+        (pin 2))) 
+    (net 
+      (code 90) 
+      (name "Net-(D_4_6-Pad2)") 
+      (node 
+        (ref K_4_6) 
+        (pin 2)) 
+      (node 
+        (ref D_4_6) 
+        (pin 2))) 
+    (net 
+      (code 91) 
+      (name "Net-(D_4_4-Pad2)") 
+      (node 
+        (ref D_4_4) 
+        (pin 2)) 
+      (node 
+        (ref K_4_4) 
+        (pin 2))) 
+    (net 
+      (code 92) 
+      (name "Net-(D_3_11-Pad2)") 
+      (node 
+        (ref K_3_11) 
+        (pin 2)) 
+      (node 
+        (ref D_3_11) 
+        (pin 2))) 
+    (net 
+      (code 93) 
+      (name "Net-(D_3_10-Pad2)") 
+      (node 
+        (ref K_3_10) 
+        (pin 2)) 
+      (node 
+        (ref D_3_10) 
+        (pin 2))) 
+    (net 
+      (code 94) 
+      (name "Net-(D_3_9-Pad2)") 
+      (node 
+        (ref D_3_9) 
+        (pin 2)) 
+      (node 
+        (ref K_3_9) 
+        (pin 2))) 
+    (net 
+      (code 95) 
+      (name "Net-(D_3_12-Pad2)") 
+      (node 
+        (ref K_3_12) 
+        (pin 2)) 
+      (node 
+        (ref D_3_12) 
+        (pin 2))) 
+    (net 
+      (code 96) 
+      (name "Net-(D_4_9-Pad2)") 
+      (node 
+        (ref D_4_9) 
+        (pin 2)) 
+      (node 
+        (ref K_4_9) 
+        (pin 2))) 
+    (net 
+      (code 97) 
+      (name "Net-(D_4_13-Pad2)") 
+      (node 
+        (ref D_4_13) 
+        (pin 2)) 
+      (node 
+        (ref K_4_13) 
+        (pin 2))) 
+    (net 
+      (code 98) 
+      (name "Net-(D_3_13-Pad2)") 
+      (node 
+        (ref K_3_13) 
+        (pin 2)) 
+      (node 
+        (ref D_3_13) 
+        (pin 2))) 
+    (net 
+      (code 99) 
+      (name "Net-(D_2_13-Pad2)") 
+      (node 
+        (ref D_2_13) 
+        (pin 2)) 
+      (node 
+        (ref K_2_13) 
+        (pin 2))) 
+    (net 
+      (code 100) 
+      (name "Net-(D_1_13-Pad2)") 
+      (node 
+        (ref K_1_13) 
+        (pin 2)) 
+      (node 
+        (ref D_1_13) 
+        (pin 2))) 
+    (net 
+      (code 101) 
+      (name R0) 
+      (node 
+        (ref D_0_13) 
+        (pin 1)) 
+      (node 
+        (ref D_0_0) 
+        (pin 1)) 
+      (node 
+        (ref D_0_10) 
+        (pin 1)) 
+      (node 
+        (ref D_0_11) 
+        (pin 1)) 
+      (node 
+        (ref D_0_8) 
+        (pin 1)) 
+      (node 
+        (ref D_0_3) 
+        (pin 1)) 
+      (node 
+        (ref D_0_2) 
+        (pin 1)) 
+      (node 
+        (ref D_0_1) 
+        (pin 1)) 
+      (node 
+        (ref D_0_4) 
+        (pin 1)) 
+      (node 
+        (ref D_0_5) 
+        (pin 1)) 
+      (node 
+        (ref D_0_12) 
+        (pin 1)) 
+      (node 
+        (ref D_0_9) 
+        (pin 1)) 
+      (node 
+        (ref U1) 
+        (pin 6)) 
+      (node 
+        (ref D_0_6) 
+        (pin 1)) 
+      (node 
+        (ref D_0_7) 
+        (pin 1))) 
+    (net 
+      (code 102) 
+      (name "Net-(D_4_11-Pad2)") 
+      (node 
+        (ref K_4_11) 
+        (pin 2)) 
+      (node 
+        (ref D_4_11) 
+        (pin 2))) 
+    (net 
+      (code 103) 
+      (name "Net-(D_4_10-Pad2)") 
+      (node 
+        (ref K_4_10) 
+        (pin 2)) 
+      (node 
+        (ref D_4_10) 
+        (pin 2))) 
+    (net 
+      (code 104) 
+      (name "Net-(D_4_8-Pad2)") 
+      (node 
+        (ref D_4_8) 
+        (pin 2)) 
+      (node 
+        (ref K_4_8) 
+        (pin 2))) 
+    (net 
+      (code 105) 
+      (name "Net-(D_0_13-Pad2)") 
+      (node 
+        (ref D_0_13) 
+        (pin 2)) 
+      (node 
+        (ref K_0_13) 
+        (pin 2))) 
+    (net 
+      (code 106) 
+      (name "Net-(D_4_12-Pad2)") 
+      (node 
+        (ref D_4_12) 
+        (pin 2)) 
+      (node 
+        (ref K_4_12) 
+        (pin 2)))))

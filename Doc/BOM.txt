@@ -1,0 +1,4 @@
+Uniform Module V1 BOM
+
+2x Button https://www.digikey.com/en/products/detail/c-k/PTS-647-SN50-SMTR2-LFS/9649857
+1x PCIE x1 Female Connector https://www.digikey.com/en/products/detail/molex/0877159006/760708
