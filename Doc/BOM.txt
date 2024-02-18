@@ -1,4 +1,6 @@
 Uniform Module V1 BOM
 
 2x Button https://www.digikey.com/en/products/detail/c-k/PTS-647-SN50-SMTR2-LFS/9649857
-1x PCIE x1 Female Connector https://www.digikey.com/en/products/detail/molex/0877159006/760708
+1x PCIE x1 Female Connector https://www.digikey.com/en/products/detail/samtec-inc/PCIE-036-02-F-D-TH/6561616
+1x R/A 5-PIN Header (SWD) https://www.digikey.com/en/products/detail/adam-tech/PH1RB-05-UA/9831540
+1x LED https://www.digikey.com/en/products/detail/bivar-inc/SM0805UWC/2408550

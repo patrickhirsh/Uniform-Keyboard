@@ -1,4 +1,4 @@
-20332441465114355
+20333833396176399
 1N4148
 DIOAD829W49L456D191
 
@@ -52940,41 +52940,6 @@ Fuse Fuseholder TR5 Littelfuse/Wickmann No. 460 No560
 0
 2
 2
-Graphics
-graphic_designed-by
-
-
-0
-0
-0
-Graphics
-graphic_designed-by-with-year
-
-
-0
-0
-0
-Graphics
-graphic_logo
-
-
-0
-0
-0
-Graphics
-graphic_logo_huge
-
-
-0
-0
-0
-Graphics
-graphic_mounting_indicator
-
-
-0
-0
-0
 Heatsink
 Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35
 Heatsink, 35mm x 26mm, 1x Fixation 3mm, Fischer SK486-35
@@ -84974,6 +84939,41 @@ igbt diode module
 25
 USB4085-GF-A_REVA4
 GCT_USB4085-GF-A_REVA4
+
+
+0
+20
+20
+Uniform
+Button SMD PTS 647 SN50 SMTR2 LFS
+
+PTS 647 SN50 SMTR2 LFS 
+0
+4
+4
+Uniform
+Button SMD PTS 647 SN50 SMTR2 LFS-L
+
+PTS 647 SN50 SMTR2 LFS 
+0
+4
+4
+Uniform
+Button SMD PTS 647 SN50 SMTR2 LFS-M
+
+PTS 647 SN50 SMTR2 LFS 
+0
+4
+4
+Uniform
+SAMTEC_PCIE-036-02-F-D-TH
+
+
+0
+36
+36
+Uniform
+USBC_USB4085-GF-A
 
 
 0
