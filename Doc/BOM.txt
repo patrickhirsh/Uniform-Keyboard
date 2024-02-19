@@ -4,3 +4,4 @@ Uniform Module V1 BOM
 1x PCIE x1 Female Connector https://www.digikey.com/en/products/detail/samtec-inc/PCIE-036-02-F-D-TH/6561616
 1x R/A 5-PIN Header (SWD) https://www.digikey.com/en/products/detail/adam-tech/PH1RB-05-UA/9831540
 1x LED https://www.digikey.com/en/products/detail/bivar-inc/SM0805UWC/2408550
+2x 5.1k Resistor https://www.digikey.com/en/products/detail/susumu/RG1608P-512-B-T5/1240605
