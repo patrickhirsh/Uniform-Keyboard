@@ -1,6 +1,6 @@
 (footprint "Diode_DIOAD829W49L456D191" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 62036E83)
+  (tedit 65D2F328)
   (attr through_hole)
   (fp_text reference "REF**" (at 0.612145 -2.843205) (layer "F.SilkS")
     (effects (font (size 1.000102 1.000102) (thickness 0.15)))
