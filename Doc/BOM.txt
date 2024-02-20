@@ -1,7 +1,24 @@
-Uniform Module V1 BOM
+Uniform Module V2.00 BOM
 
-2x Button https://www.digikey.com/en/products/detail/c-k/PTS-647-SN50-SMTR2-LFS/9649857
+BOARD:
 1x PCIE x1 Female Connector https://www.digikey.com/en/products/detail/samtec-inc/PCIE-036-02-F-D-TH/6561616
-1x R/A 5-PIN Header (SWD) https://www.digikey.com/en/products/detail/adam-tech/PH1RB-05-UA/9831540
+2x 5.1k Resistor https://www.digikey.com/en/products/detail/yageo/RC0603FR-075K1L/727268
+1x USBC https://www.digikey.com/en/products/detail/gct/USB4085-GF-A/9859662
+68x Diodes https://www.mouser.com/ProductDetail/512-1N4148
+68x Switches
+
+MODULE:
+1x MCU https://www.digikey.com/en/products/detail/stmicroelectronics/STM32L072KZT6/6167000
 1x LED https://www.digikey.com/en/products/detail/bivar-inc/SM0805UWC/2408550
-2x 5.1k Resistor https://www.digikey.com/en/products/detail/susumu/RG1608P-512-B-T5/1240605
+1x R/A 5-PIN Header (SWD) https://www.digikey.com/en/products/detail/adam-tech/PH1RB-05-UA/9831540
+2x Button https://www.digikey.com/en/products/detail/c-k/PTS-647-SN50-SMTR2-LFS/9649857
+1x Voltage Regulator https://www.digikey.com/en/products/detail/texas-instruments/TLV1117-33IDCYG3/1677131
+2x 10uf Capacitor https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A106MQ8NNNC/3886777
+1x 1uf Capacitor https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B105KP8NNNC/3887604
+3x .1uf Capacitor https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KO8NNNC/3886663
+2x 10k Resistor https://www.digikey.com/en/products/detail/yageo/RC0603FR-0710KL/726880
+1x 100 Ohm Resistor https://www.digikey.com/en/products/detail/yageo/RC0603FR-07100RL/726888
+
+
+OPTIONAL:
+136x Hot Swap Sockets https://www.digikey.com/en/products/detail/mill-max-manufacturing-corp/7305-0-15-15-47-27-10-0/1765737
