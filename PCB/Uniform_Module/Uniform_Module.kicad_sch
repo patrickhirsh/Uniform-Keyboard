@@ -2697,7 +2697,7 @@
   (symbol (lib_id "power:+3.3V") (at 177.8 107.95 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 167d34f8-7b19-4cdf-8fc2-ce22f223008d)
-    (property "Reference" "#PWR?" (id 0) (at 181.61 107.95 0)
+    (property "Reference" "#PWR0117" (id 0) (at 181.61 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (id 1) (at 173.4058 107.569 0))
@@ -2713,7 +2713,7 @@
   (symbol (lib_id "power:GND") (at 203.2 129.54 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 17cbdd21-7ae4-482e-8b30-b65cc702cb8d)
-    (property "Reference" "#PWR?" (id 0) (at 209.55 129.54 0)
+    (property "Reference" "#PWR0118" (id 0) (at 209.55 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 207.5942 129.413 0))
@@ -2729,7 +2729,7 @@
   (symbol (lib_id "power:+5V") (at 160.02 165.1 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 1a0b9346-f53d-4472-87c4-a67ed029345f)
-    (property "Reference" "#PWR?" (id 0) (at 156.21 165.1 0)
+    (property "Reference" "#PWR0112" (id 0) (at 156.21 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (id 1) (at 164.4142 165.481 0))
@@ -2745,7 +2745,7 @@
   (symbol (lib_id "power:GND") (at 223.52 107.95 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 22806f7a-57aa-4bc5-8eaf-0cb7892fe0a8)
-    (property "Reference" "#PWR?" (id 0) (at 229.87 107.95 0)
+    (property "Reference" "#PWR0113" (id 0) (at 229.87 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 227.9142 107.823 0))
@@ -2767,7 +2767,7 @@
     (property "Value" "Button_SMD_PTS_647_SN50_SMTR2_LFS" (id 1) (at 190.5 102.87 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "PTS 647 SN50 SMTR2 LFS" (id 2) (at 190.5 109.22 0)
+    (property "Footprint" "Uniform:Button SMD PTS 647 SN50 SMTR2 LFS" (id 2) (at 190.5 109.22 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "PTS 647 SN50 SMTR2 LFS" (id 3) (at 190.5 109.22 0)
@@ -2782,7 +2782,7 @@
   (symbol (lib_id "power:+3.3V") (at 157.48 129.54 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 558f6cf7-5b27-4837-8211-25ff6508bef9)
-    (property "Reference" "#PWR?" (id 0) (at 161.29 129.54 0)
+    (property "Reference" "#PWR0110" (id 0) (at 161.29 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (id 1) (at 153.0858 129.159 0))
@@ -2798,7 +2798,7 @@
   (symbol (lib_id "power:GND") (at 342.9 190.5 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 8cacba12-5aae-4ccf-b922-889d7af4cf8f)
-    (property "Reference" "#PWR?" (id 0) (at 349.25 190.5 0)
+    (property "Reference" "#PWR0114" (id 0) (at 349.25 190.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 347.2942 190.373 0))
@@ -2814,7 +2814,7 @@
   (symbol (lib_id "power:+5V") (at 337.82 147.32 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 9818f90a-9321-4af7-816e-1d38b52d497d)
-    (property "Reference" "#PWR?" (id 0) (at 334.01 147.32 0)
+    (property "Reference" "#PWR0115" (id 0) (at 334.01 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (id 1) (at 342.2142 147.701 0))
@@ -2868,7 +2868,7 @@
   (symbol (lib_id "power:GND") (at 342.9 144.78 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid bb4b86f3-d31d-4026-8d80-89e6f63a3e77)
-    (property "Reference" "#PWR?" (id 0) (at 349.25 144.78 0)
+    (property "Reference" "#PWR0116" (id 0) (at 349.25 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 347.2942 144.653 0))
@@ -2884,7 +2884,7 @@
   (symbol (lib_id "power:GND") (at 137.16 165.1 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid c5ca0baa-14a9-46a7-a550-a13199207c5b)
-    (property "Reference" "#PWR?" (id 0) (at 130.81 165.1 0)
+    (property "Reference" "#PWR0111" (id 0) (at 130.81 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 132.7658 165.227 0))
@@ -2902,7 +2902,7 @@
     (uuid cebbdf72-49e2-4e8c-8b32-f9cfe1d79f50)
     (property "Reference" "J1" (id 0) (at 325.12 97.79 0))
     (property "Value" "PCIE_x1_Conn_01x36_Male" (id 1) (at 325.12 100.33 0))
-    (property "Footprint" "" (id 2) (at 325.12 147.32 0)
+    (property "Footprint" "Uniform:SAMTEC_PCIE_x1_CARD_EDGE_02_X_D_TH" (id 2) (at 325.12 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 325.12 147.32 0)
@@ -2955,7 +2955,7 @@
     (property "Value" "Button_SMD_PTS_647_SN50_SMTR2_LFS" (id 1) (at 190.5 124.46 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "PTS 647 SN50 SMTR2 LFS" (id 2) (at 190.5 130.81 0)
+    (property "Footprint" "Uniform:Button SMD PTS 647 SN50 SMTR2 LFS" (id 2) (at 190.5 130.81 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "PTS 647 SN50 SMTR2 LFS" (id 3) (at 190.5 130.81 0)
@@ -3014,6 +3014,33 @@
     (path "/00000000-0000-0000-0000-0000623795fa"
       (reference "#PWR0109") (unit 1) (value "GND") (footprint "")
     )
+    (path "/558f6cf7-5b27-4837-8211-25ff6508bef9"
+      (reference "#PWR0110") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/c5ca0baa-14a9-46a7-a550-a13199207c5b"
+      (reference "#PWR0111") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/1a0b9346-f53d-4472-87c4-a67ed029345f"
+      (reference "#PWR0112") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/22806f7a-57aa-4bc5-8eaf-0cb7892fe0a8"
+      (reference "#PWR0113") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/8cacba12-5aae-4ccf-b922-889d7af4cf8f"
+      (reference "#PWR0114") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/9818f90a-9321-4af7-816e-1d38b52d497d"
+      (reference "#PWR0115") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/bb4b86f3-d31d-4026-8d80-89e6f63a3e77"
+      (reference "#PWR0116") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/167d34f8-7b19-4cdf-8fc2-ce22f223008d"
+      (reference "#PWR0117") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/17cbdd21-7ae4-482e-8b30-b65cc702cb8d"
+      (reference "#PWR0118") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-000062453169"
       (reference "#PWR0120") (unit 1) (value "+3.3V") (footprint "")
     )
@@ -3028,33 +3055,6 @@
     )
     (path "/00000000-0000-0000-0000-000062408d42"
       (reference "#PWR0124") (unit 1) (value "+3.3V") (footprint "")
-    )
-    (path "/167d34f8-7b19-4cdf-8fc2-ce22f223008d"
-      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
-    )
-    (path "/17cbdd21-7ae4-482e-8b30-b65cc702cb8d"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/1a0b9346-f53d-4472-87c4-a67ed029345f"
-      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
-    )
-    (path "/22806f7a-57aa-4bc5-8eaf-0cb7892fe0a8"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/558f6cf7-5b27-4837-8211-25ff6508bef9"
-      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
-    )
-    (path "/8cacba12-5aae-4ccf-b922-889d7af4cf8f"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/9818f90a-9321-4af7-816e-1d38b52d497d"
-      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
-    )
-    (path "/bb4b86f3-d31d-4026-8d80-89e6f63a3e77"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/c5ca0baa-14a9-46a7-a550-a13199207c5b"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00006342748d"
       (reference "C1") (unit 1) (value "10uf") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
@@ -3078,7 +3078,7 @@
       (reference "D1") (unit 1) (value "LED") (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
     )
     (path "/cebbdf72-49e2-4e8c-8b32-f9cfe1d79f50"
-      (reference "J1") (unit 1) (value "PCIE_x1_Conn_01x36_Male") (footprint "")
+      (reference "J1") (unit 1) (value "PCIE_x1_Conn_01x36_Male") (footprint "Uniform:SAMTEC_PCIE_x1_CARD_EDGE_02_X_D_TH")
     )
     (path "/aefaa4bc-9b3d-4fb6-aee2-8b4a60a911ec"
       (reference "R1") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
@@ -3090,10 +3090,10 @@
       (reference "R3") (unit 1) (value "100") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/3396b43a-5a1d-49b8-a946-6fe71f36d85d"
-      (reference "SW1") (unit 1) (value "Button_SMD_PTS_647_SN50_SMTR2_LFS") (footprint "PTS 647 SN50 SMTR2 LFS")
+      (reference "SW1") (unit 1) (value "Button_SMD_PTS_647_SN50_SMTR2_LFS") (footprint "Uniform:Button SMD PTS 647 SN50 SMTR2 LFS")
     )
     (path "/daab072c-9433-43a5-9828-b5b77645268f"
-      (reference "SW2") (unit 1) (value "Button_SMD_PTS_647_SN50_SMTR2_LFS") (footprint "PTS 647 SN50 SMTR2 LFS")
+      (reference "SW2") (unit 1) (value "Button_SMD_PTS_647_SN50_SMTR2_LFS") (footprint "Uniform:Button SMD PTS 647 SN50 SMTR2 LFS")
     )
     (path "/00000000-0000-0000-0000-000062ef1199"
       (reference "SWD1") (unit 1) (value "PH1RB-05-UA") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical")
